@@ -1,0 +1,5 @@
+# KiCad Model of Logical Devices' ALLPRO88 PLCC Socket Module
+
+## Overview
+
+This provides a KiCad [schematic](https://github.com/user-attachments/files/18313981/pin_driver.pdf) of the PLCC socket module for use with Logic Devices' ALLPRO88 software-driven device programmer.  The service manual scans available on the internet are incomprehensible.  I believe the schematic is correct.  The PCB's size and the locations of the DIN connectors, 48 pin ZIF connector and decoupling capacitors and transistors all match the original.  All other part locations are approximate, the PCB has not been routed, and the footprints for the PLCC sockets are not correct.  The PLCC sockets here have the wrong pin layout, and are mirrored with respect to the originals (the originals are "dead bug" style sockets, into which the parts get inserted upside down).  The objective is not to allow a PLCC socket module to be reproduced from this project, but to provide a starting point for making a custom socket module.
