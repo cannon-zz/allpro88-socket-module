@@ -829,8 +829,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -930,8 +934,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -951,8 +954,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1028,8 +1035,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2908,6 +2914,16 @@
 		)
 		(uuid "f8192e3a-bd00-49fa-a668-4f0b66016639")
 	)
+	(wire
+		(pts
+			(xy 54.61 83.82) (xy 57.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002e7d30-27e3-4831-b75e-78a39dfa0a5c")
+	)
 	(bus
 		(pts
 			(xy 283.21 86.36) (xy 283.21 101.6)
@@ -2950,13 +2966,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 173.99 83.82)
+			(xy 241.3 83.82) (xy 243.84 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "035db2df-1f39-4269-9994-afc8239c86f0")
+		(uuid "038dab82-7574-481b-b148-8ecc8f416870")
 	)
 	(wire
 		(pts
@@ -2967,16 +2983,6 @@
 			(type default)
 		)
 		(uuid "03eaec24-03ef-4454-8672-fdfe08826931")
-	)
-	(wire
-		(pts
-			(xy 246.38 114.3) (xy 254 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "040b46a1-e8ea-4467-b461-a00661ff92b8")
 	)
 	(bus
 		(pts
@@ -2990,13 +2996,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 144.78) (xy 200.66 144.78)
+			(xy 62.23 99.06) (xy 67.31 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04e9dbf5-cfd5-46e5-b170-a0ad7752c40e")
+		(uuid "0610ba7d-f314-48a3-a3f3-a938d0571574")
+	)
+	(wire
+		(pts
+			(xy 134.62 99.06) (xy 137.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06234229-362d-41ab-867c-f783b528de56")
 	)
 	(bus
 		(pts
@@ -3020,23 +3036,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 129.54) (xy 67.31 129.54)
+			(xy 81.28 114.3) (xy 83.82 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07031f0b-b375-427a-88b3-533eb51670eb")
-	)
-	(wire
-		(pts
-			(xy 59.69 83.82) (xy 67.31 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08a8a0c4-3b76-4692-911a-06179e10f219")
+		(uuid "08fd5a51-2875-4935-bbc7-3f3d779f5dcc")
 	)
 	(bus
 		(pts
@@ -3138,6 +3144,16 @@
 		)
 		(uuid "0ff57d44-42c9-4bb7-a2f8-f04444d564b6")
 	)
+	(wire
+		(pts
+			(xy 222.25 83.82) (xy 227.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1037db61-0a02-4320-9252-9a70112d22b7")
+	)
 	(bus
 		(pts
 			(xy 257.81 74.93) (xy 283.21 74.93)
@@ -3170,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 114.3) (xy 280.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ff9b39-8e37-40d3-8001-690be5fba300")
+	)
+	(wire
+		(pts
 			(xy 175.26 34.29) (xy 177.8 34.29)
 		)
 		(stroke
@@ -3198,6 +3224,16 @@
 		)
 		(uuid "17548979-09b5-4862-987b-28a7098ce19b")
 	)
+	(wire
+		(pts
+			(xy 81.28 144.78) (xy 83.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178b0e76-5521-40b8-a042-dec4f35d5616")
+	)
 	(bus
 		(pts
 			(xy 71.12 21.59) (xy 114.3 21.59)
@@ -3210,6 +3246,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 114.3) (xy 120.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bacc1c-5d32-4371-a904-49053062537e")
+	)
+	(wire
+		(pts
 			(xy 190.5 44.45) (xy 194.31 44.45)
 		)
 		(stroke
@@ -3217,6 +3263,16 @@
 			(type default)
 		)
 		(uuid "18fef0c2-5f95-4065-b6ab-6ead11a15ba9")
+	)
+	(wire
+		(pts
+			(xy 161.29 83.82) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c226ce-e2da-4c99-8e77-41cfbe28c6fd")
 	)
 	(bus
 		(pts
@@ -3260,6 +3316,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 144.78) (xy 217.17 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d04fdbe-82ab-4246-8752-510b7f6df90b")
+	)
+	(wire
+		(pts
 			(xy 60.96 54.61) (xy 64.77 54.61)
 		)
 		(stroke
@@ -3267,6 +3333,16 @@
 			(type default)
 		)
 		(uuid "1d9e7ccf-fe7e-483f-ba9d-29e771124d6e")
+	)
+	(wire
+		(pts
+			(xy 88.9 114.3) (xy 93.98 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea0e3f7-4798-46d5-b3a0-b7524620f1de")
 	)
 	(bus
 		(pts
@@ -3287,6 +3363,16 @@
 			(type default)
 		)
 		(uuid "1f6638f6-5f22-44ce-8ef7-79f603873052")
+	)
+	(wire
+		(pts
+			(xy 134.62 83.82) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcf3615-4aa8-49e4-9329-cb4c3eef5741")
 	)
 	(wire
 		(pts
@@ -3400,6 +3486,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 129.54) (xy 270.51 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a99f695-716e-4615-a526-fa793436ff31")
+	)
+	(wire
+		(pts
 			(xy 74.93 46.99) (xy 78.74 46.99)
 		)
 		(stroke
@@ -3440,13 +3536,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 114.3) (xy 147.32 114.3)
+			(xy 168.91 144.78) (xy 173.99 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c47fee4-2c33-403c-b3ac-de949b2a45c5")
+		(uuid "2c400dba-2175-40a8-a295-3585cd6e1bd1")
+	)
+	(wire
+		(pts
+			(xy 142.24 144.78) (xy 147.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb1e5e4-ed64-40a8-af4e-0c7c4f17bb78")
 	)
 	(bus
 		(pts
@@ -3488,6 +3594,16 @@
 		)
 		(uuid "2e9f34f5-b353-42fe-b6c0-4345edef4653")
 	)
+	(wire
+		(pts
+			(xy 62.23 83.82) (xy 67.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec41814-cb51-4585-97de-548868c86a52")
+	)
 	(bus
 		(pts
 			(xy 158.75 17.78) (xy 158.75 44.45)
@@ -3500,23 +3616,33 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 99.06) (xy 173.99 99.06)
+			(xy 187.96 99.06) (xy 190.5 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "301b389e-123a-4861-8f8d-f5eef8570902")
+		(uuid "31098246-06ce-401b-8c3f-af5be25d3531")
 	)
 	(wire
 		(pts
-			(xy 166.37 144.78) (xy 173.99 144.78)
+			(xy 107.95 114.3) (xy 110.49 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30891864-3036-4ac3-a52d-d9da8f938a95")
+		(uuid "31eafde0-241e-4056-9dd3-4a87d0b61a72")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 163.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3380c987-9e27-4b1f-914d-b4e1967227ad")
 	)
 	(bus
 		(pts
@@ -3530,13 +3656,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 129.54) (xy 280.67 129.54)
+			(xy 134.62 144.78) (xy 137.16 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "366ab7bc-1b9b-4571-84f9-b92b3387aa8f")
+		(uuid "365ac090-8a86-40cb-a49e-27b750f7e475")
 	)
 	(bus
 		(pts
@@ -3618,6 +3744,16 @@
 		)
 		(uuid "393dcbcc-89d6-47fc-a568-1f2d3eb8a0a1")
 	)
+	(wire
+		(pts
+			(xy 115.57 129.54) (xy 120.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3989314d-6af9-4199-8839-a6b348871965")
+	)
 	(bus
 		(pts
 			(xy 256.54 86.36) (xy 256.54 101.6)
@@ -3668,6 +3804,16 @@
 		)
 		(uuid "3c00bc04-94b7-4120-9aaf-21f22762b23e")
 	)
+	(wire
+		(pts
+			(xy 275.59 129.54) (xy 280.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5f116a-0b0d-40f4-b50b-496b7d6cac1e")
+	)
 	(bus
 		(pts
 			(xy 200.66 21.59) (xy 200.66 54.61)
@@ -3708,6 +3854,16 @@
 		)
 		(uuid "3d818475-c7d7-486d-beaf-9ff8396a486a")
 	)
+	(wire
+		(pts
+			(xy 27.94 129.54) (xy 30.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3daa669c-b5e3-4e59-a811-ff65ec617207")
+	)
 	(bus
 		(pts
 			(xy 124.46 74.93) (xy 151.13 74.93)
@@ -3717,6 +3873,16 @@
 			(type default)
 		)
 		(uuid "3e89dfeb-7512-4f21-8ae6-3b94685fc857")
+	)
+	(wire
+		(pts
+			(xy 134.62 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0a68d9-bdd8-4e56-8b4e-c1255f12404f")
 	)
 	(wire
 		(pts
@@ -3828,6 +3994,16 @@
 		)
 		(uuid "42abcae4-9263-4106-9e83-2914d4417776")
 	)
+	(wire
+		(pts
+			(xy 222.25 114.3) (xy 227.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43db5b28-8a70-4020-bddd-343dd9be992e")
+	)
 	(bus
 		(pts
 			(xy 97.79 116.84) (xy 97.79 132.08)
@@ -3870,33 +4046,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 200.66 83.82)
+			(xy 248.92 83.82) (xy 254 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4585e861-8565-4617-a611-2332ea4e7e77")
-	)
-	(wire
-		(pts
-			(xy 219.71 114.3) (xy 227.33 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45f8983f-f367-413a-b776-c686f4c65739")
-	)
-	(wire
-		(pts
-			(xy 273.05 83.82) (xy 280.67 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46449032-acde-481d-945e-5584a04df9d2")
+		(uuid "4626abaa-14d0-45b0-9bae-9025a3b266f4")
 	)
 	(bus
 		(pts
@@ -3930,13 +4086,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 147.32 83.82)
+			(xy 222.25 144.78) (xy 227.33 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49a1e05d-6ff1-4577-b597-966e9e5c5f3d")
+		(uuid "4a51c994-fade-4310-bb44-3de597700d64")
+	)
+	(wire
+		(pts
+			(xy 168.91 114.3) (xy 173.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc5b3d2-6bd9-402c-a0bd-42e8a364c6e8")
 	)
 	(bus
 		(pts
@@ -3958,16 +4124,6 @@
 		)
 		(uuid "4cf37a48-1b43-4ed8-9d82-c446c08b5dc9")
 	)
-	(wire
-		(pts
-			(xy 33.02 144.78) (xy 40.64 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d382209-e6cf-45d8-bb08-065eee58bbd6")
-	)
 	(bus
 		(pts
 			(xy 153.67 49.53) (xy 153.67 52.07)
@@ -3980,13 +4136,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 99.06) (xy 227.33 99.06)
+			(xy 54.61 99.06) (xy 57.15 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d7aaca4-d9ea-4d8b-848a-fb42c246eab8")
+		(uuid "4dd2a256-8b7a-4d1a-b239-48e2dad735cf")
 	)
 	(wire
 		(pts
@@ -4030,13 +4186,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 129.54) (xy 147.32 129.54)
+			(xy 35.56 144.78) (xy 40.64 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "523a494a-13fe-44e5-9c97-5352cee9b770")
+		(uuid "51260213-ae4f-4fa9-8c58-2f97478a5c71")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b2585f-4734-4fae-a220-d92dfa27250a")
 	)
 	(bus
 		(pts
@@ -4120,13 +4286,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 114.3) (xy 40.64 114.3)
+			(xy 142.24 114.3) (xy 147.32 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b51614b-7cce-4b2c-ad28-86a2c67c3de6")
+		(uuid "595a0c6f-03ca-4081-9a99-8e290ff59ca2")
 	)
 	(bus
 		(pts
@@ -4147,16 +4313,6 @@
 			(type default)
 		)
 		(uuid "5cf7e83b-e7d7-44ee-a792-e7d6c1e88aa7")
-	)
-	(wire
-		(pts
-			(xy 86.36 129.54) (xy 93.98 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4eb652-dedf-404f-9cbe-7dd8e6477678")
 	)
 	(bus
 		(pts
@@ -4220,13 +4376,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 114.3) (xy 67.31 114.3)
+			(xy 248.92 114.3) (xy 254 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61532800-43ed-4c1a-b302-394b28640251")
+		(uuid "6316f296-bfc7-448e-853b-62e7823fb9e2")
 	)
 	(bus
 		(pts
@@ -4240,13 +4396,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 144.78) (xy 147.32 144.78)
+			(xy 222.25 129.54) (xy 227.33 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "659f8c77-7d70-4462-bf2d-c7ef9fb90e58")
+		(uuid "65156f4c-2bfb-4e73-ac1e-6f7fa3def398")
 	)
 	(wire
 		(pts
@@ -4267,6 +4423,16 @@
 			(type default)
 		)
 		(uuid "661d3058-890e-4fb9-9a86-38551a1d0611")
+	)
+	(wire
+		(pts
+			(xy 267.97 114.3) (xy 270.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6639bb5a-f717-42a1-9981-98e4126589a8")
 	)
 	(bus
 		(pts
@@ -4297,6 +4463,16 @@
 			(type default)
 		)
 		(uuid "693c467b-d016-455c-8da7-5e50b49560e4")
+	)
+	(wire
+		(pts
+			(xy 115.57 83.82) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b21cfd-e909-498f-9c32-72cc6f67b304")
 	)
 	(bus
 		(pts
@@ -4358,6 +4534,16 @@
 		)
 		(uuid "6dc3b800-6ea4-432a-a487-de6b117e46f7")
 	)
+	(wire
+		(pts
+			(xy 115.57 144.78) (xy 120.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6def0029-fce1-4b3a-aff7-ef57a5fd5cbb")
+	)
 	(bus
 		(pts
 			(xy 201.93 17.78) (xy 245.11 17.78)
@@ -4387,6 +4573,16 @@
 			(type default)
 		)
 		(uuid "6eaf7a61-0951-4fb4-bcf4-bd3d642802b6")
+	)
+	(wire
+		(pts
+			(xy 27.94 144.78) (xy 30.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa1ef89-e59a-4c64-9e90-8e797e8f787e")
 	)
 	(wire
 		(pts
@@ -4478,6 +4674,16 @@
 		)
 		(uuid "73bdc750-fce4-48ff-b4eb-78abc256932d")
 	)
+	(wire
+		(pts
+			(xy 275.59 99.06) (xy 280.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bec25e-7fe4-499f-90c5-69d17bda8d59")
+	)
 	(bus
 		(pts
 			(xy 257.81 74.93) (xy 257.81 86.36)
@@ -4498,16 +4704,6 @@
 		)
 		(uuid "753fb855-4173-4bdf-b731-3f2f5c40ba04")
 	)
-	(wire
-		(pts
-			(xy 246.38 83.82) (xy 254 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e16828-123e-493e-a4de-2da6cc806ff2")
-	)
 	(bus
 		(pts
 			(xy 69.85 147.32) (xy 69.85 162.56)
@@ -4517,6 +4713,16 @@
 			(type default)
 		)
 		(uuid "774a9f35-7578-4567-8515-8f3e49d717e6")
+	)
+	(wire
+		(pts
+			(xy 187.96 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7807825e-4d39-457a-95b1-f1b9c54d6364")
 	)
 	(bus
 		(pts
@@ -4528,16 +4734,6 @@
 		)
 		(uuid "782320e3-6b27-43eb-b14e-061116f9d9ad")
 	)
-	(wire
-		(pts
-			(xy 113.03 83.82) (xy 120.65 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a5d892f-ff20-45e2-9453-8cc43e0e4eb8")
-	)
 	(bus
 		(pts
 			(xy 201.93 17.78) (xy 201.93 44.45)
@@ -4547,6 +4743,16 @@
 			(type default)
 		)
 		(uuid "7b233363-5873-4a35-81ee-e58b0a527a90")
+	)
+	(wire
+		(pts
+			(xy 241.3 99.06) (xy 243.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6ffdb2-48a3-4053-b9d0-901f56abba63")
 	)
 	(wire
 		(pts
@@ -4660,6 +4866,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 114.3) (xy 243.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803b9ad7-40c3-4334-9679-e3f3a73f713c")
+	)
+	(wire
+		(pts
 			(xy 247.65 49.53) (xy 251.46 49.53)
 		)
 		(stroke
@@ -4677,6 +4893,16 @@
 			(type default)
 		)
 		(uuid "810e1776-4698-4324-9032-eb5f6c81327e")
+	)
+	(wire
+		(pts
+			(xy 187.96 83.82) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f45452-0133-4c43-8c46-6195a3829013")
 	)
 	(wire
 		(pts
@@ -4720,16 +4946,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 99.06) (xy 254 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84b663cd-14c6-45cd-92d0-ee3151300a90")
-	)
-	(wire
-		(pts
 			(xy 156.21 25.4) (xy 113.03 25.4)
 		)
 		(stroke
@@ -4757,6 +4973,16 @@
 			(type default)
 		)
 		(uuid "85a7e4ae-000c-411d-b728-407f579df38e")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 93.98 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8647e3ef-c5c7-45d0-a08a-de9146109bd9")
 	)
 	(wire
 		(pts
@@ -4800,13 +5026,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 83.82) (xy 227.33 83.82)
+			(xy 214.63 129.54) (xy 217.17 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "884e6f71-fc42-44d8-afd4-0f3d9e0989e6")
+		(uuid "889e7506-9fa2-45aa-a3f2-debe86d3c499")
 	)
 	(bus
 		(pts
@@ -4817,6 +5043,16 @@
 			(type default)
 		)
 		(uuid "88c11699-0ab0-452d-a6e4-5a160a85681a")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b214bf7-dcd7-4a8b-8441-f479bf4f42be")
 	)
 	(bus
 		(pts
@@ -4840,13 +5076,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 120.65 99.06)
+			(xy 248.92 99.06) (xy 254 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b856ed4-7b21-4cd5-98e9-3c10d5f0224d")
+		(uuid "8bb83a8a-f617-4a53-9c5a-92e2bf735724")
+	)
+	(wire
+		(pts
+			(xy 195.58 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c655b60-6c38-4252-8509-cd603cfd97eb")
 	)
 	(wire
 		(pts
@@ -4930,6 +5176,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 99.06) (xy 40.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913a9380-acb1-4b5a-b3f7-c9bbcb338d8f")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 83.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92808da5-e6cf-4aa9-87aa-65c013f9a6fa")
+	)
+	(wire
+		(pts
 			(xy 190.5 52.07) (xy 194.31 52.07)
 		)
 		(stroke
@@ -4947,6 +5213,26 @@
 			(type default)
 		)
 		(uuid "92e67f45-43cf-4b43-a2cc-c88c95bdc94f")
+	)
+	(wire
+		(pts
+			(xy 107.95 144.78) (xy 110.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934e219e-2fd9-4e53-b934-9a0ec5512f97")
+	)
+	(wire
+		(pts
+			(xy 214.63 114.3) (xy 217.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f98e41-6b2e-41e6-9d7f-bce9c5cd3a35")
 	)
 	(bus
 		(pts
@@ -4980,13 +5266,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 144.78) (xy 93.98 144.78)
+			(xy 161.29 114.3) (xy 163.83 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "975d688a-4036-44ca-811f-b4cf3d2473cb")
+		(uuid "97547b53-4fef-47f0-b418-3f8e38c0086b")
 	)
 	(wire
 		(pts
@@ -4997,16 +5283,6 @@
 			(type default)
 		)
 		(uuid "9789c06c-1f95-4b51-bb25-cd843970003e")
-	)
-	(wire
-		(pts
-			(xy 33.02 99.06) (xy 40.64 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d33c64-2ad7-494b-ade7-740662e65700")
 	)
 	(bus
 		(pts
@@ -5020,6 +5296,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 144.78) (xy 67.31 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998c9b11-33a6-4640-a1b2-c006df2a7438")
+	)
+	(wire
+		(pts
 			(xy 276.86 41.91) (xy 280.67 41.91)
 		)
 		(stroke
@@ -5027,6 +5313,26 @@
 			(type default)
 		)
 		(uuid "99b7c01f-b3fc-43b5-bedd-f6ab49aecf7a")
+	)
+	(wire
+		(pts
+			(xy 107.95 83.82) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a854b4a-0837-45bc-b6d3-c9839b266faa")
+	)
+	(wire
+		(pts
+			(xy 62.23 114.3) (xy 67.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1eda2a-3769-47f3-8613-f22f38b1fad9")
 	)
 	(bus
 		(pts
@@ -5037,6 +5343,16 @@
 			(type default)
 		)
 		(uuid "9b4877d1-2a5a-4562-be5b-5f4099df4fde")
+	)
+	(wire
+		(pts
+			(xy 248.92 129.54) (xy 254 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b930bfa-0620-48c4-9d02-57e15186cc12")
 	)
 	(bus
 		(pts
@@ -5078,16 +5394,6 @@
 		)
 		(uuid "9bf1a6cc-131c-4960-b554-0d0369c4d609")
 	)
-	(wire
-		(pts
-			(xy 273.05 114.3) (xy 280.67 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c17a263-c9be-4883-a312-0697912a7041")
-	)
 	(bus
 		(pts
 			(xy 17.78 132.08) (xy 17.78 147.32)
@@ -5118,6 +5424,26 @@
 		)
 		(uuid "9d8024ec-e996-4841-b706-9bb35df91b06")
 	)
+	(wire
+		(pts
+			(xy 168.91 99.06) (xy 173.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc8e7ef-ce01-412e-8895-640a8af5e699")
+	)
+	(wire
+		(pts
+			(xy 187.96 144.78) (xy 190.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5d47b2-c812-481a-b649-801cad91f73c")
+	)
 	(bus
 		(pts
 			(xy 176.53 86.36) (xy 176.53 101.6)
@@ -5128,26 +5454,6 @@
 		)
 		(uuid "9f269938-ae10-494c-9d93-9df693bebbec")
 	)
-	(wire
-		(pts
-			(xy 139.7 99.06) (xy 147.32 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0052577-3b09-4cb6-ae98-c7d0547c6710")
-	)
-	(wire
-		(pts
-			(xy 86.36 114.3) (xy 93.98 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a017e704-d093-4798-8f0d-054e514c40e5")
-	)
 	(bus
 		(pts
 			(xy 43.18 132.08) (xy 43.18 147.32)
@@ -5157,16 +5463,6 @@
 			(type default)
 		)
 		(uuid "a01853c0-a686-4338-a840-2b834166df1b")
-	)
-	(wire
-		(pts
-			(xy 86.36 83.82) (xy 93.98 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a04a5a8b-d998-47dd-8100-f4fe41b9e687")
 	)
 	(bus
 		(pts
@@ -5187,16 +5483,6 @@
 			(type default)
 		)
 		(uuid "a11bd912-8220-4c7d-80b8-7a744cb340d8")
-	)
-	(wire
-		(pts
-			(xy 113.03 114.3) (xy 120.65 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a148bba1-6a02-4744-a700-490354c32c9e")
 	)
 	(bus
 		(pts
@@ -5268,6 +5554,16 @@
 		)
 		(uuid "a6c1984f-037f-4eeb-b21c-163e452af71a")
 	)
+	(wire
+		(pts
+			(xy 35.56 114.3) (xy 40.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f58b86-1e62-4811-a5d1-1bfda5d7d74f")
+	)
 	(bus
 		(pts
 			(xy 177.8 86.36) (xy 177.8 101.6)
@@ -5287,6 +5583,26 @@
 			(type default)
 		)
 		(uuid "a77d45e1-8418-4cbf-bfe2-077f9cdc60c8")
+	)
+	(wire
+		(pts
+			(xy 222.25 99.06) (xy 227.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ce2bc3-dcca-4cad-a13d-56fc7009d672")
+	)
+	(wire
+		(pts
+			(xy 214.63 83.82) (xy 217.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8aa13ad-9285-4fc2-9ff7-96186aea4a82")
 	)
 	(bus
 		(pts
@@ -5438,6 +5754,16 @@
 		)
 		(uuid "b03eb3e9-ea75-4ee7-878b-6b225be896aa")
 	)
+	(wire
+		(pts
+			(xy 27.94 114.3) (xy 30.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2192d7b-7de6-4bd9-89ab-06f75734487d")
+	)
 	(bus
 		(pts
 			(xy 110.49 54.61) (xy 110.49 57.15)
@@ -5467,16 +5793,6 @@
 			(type default)
 		)
 		(uuid "b2bbd51d-372c-4366-b24e-a51a11f60376")
-	)
-	(wire
-		(pts
-			(xy 219.71 144.78) (xy 227.33 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b30757ea-1bb4-4b32-82f1-433a905ceb94")
 	)
 	(bus
 		(pts
@@ -5528,16 +5844,6 @@
 		)
 		(uuid "b6d6885b-5851-45a1-ac9d-c2d3ab21e30a")
 	)
-	(wire
-		(pts
-			(xy 113.03 144.78) (xy 120.65 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7017ef9-c2f1-4c07-9981-5ed014ec9e42")
-	)
 	(bus
 		(pts
 			(xy 72.39 17.78) (xy 115.57 17.78)
@@ -5558,6 +5864,16 @@
 		)
 		(uuid "b73efd42-16b4-4820-8535-7c52fed3ab56")
 	)
+	(wire
+		(pts
+			(xy 134.62 129.54) (xy 137.16 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b779430b-3cd4-4820-9feb-5316ef9e8048")
+	)
 	(bus
 		(pts
 			(xy 246.38 13.97) (xy 246.38 39.37)
@@ -5567,16 +5883,6 @@
 			(type default)
 		)
 		(uuid "b7a3ac32-4aab-42a0-9f91-bb04398d8e63")
-	)
-	(wire
-		(pts
-			(xy 59.69 99.06) (xy 67.31 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b54704-31a4-49d3-bd94-cd83e841e815")
 	)
 	(wire
 		(pts
@@ -5628,6 +5934,16 @@
 		)
 		(uuid "bab2524d-71a2-481a-b384-295b0a784262")
 	)
+	(wire
+		(pts
+			(xy 168.91 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae1f19e-8910-4732-9129-ecc87a6061f3")
+	)
 	(bus
 		(pts
 			(xy 69.85 86.36) (xy 69.85 101.6)
@@ -5638,6 +5954,36 @@
 		)
 		(uuid "bbecd3f4-8b72-4579-9294-e3609ff00fc1")
 	)
+	(wire
+		(pts
+			(xy 195.58 129.54) (xy 200.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb2f3ac-e7bb-44d9-b63f-fb75efe77830")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 57.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6116f7-6fc9-47d3-865e-e055734970ff")
+	)
+	(wire
+		(pts
+			(xy 107.95 129.54) (xy 110.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be90c7bc-5a9d-40f0-ba44-432d7f5c5e39")
+	)
 	(bus
 		(pts
 			(xy 43.18 116.84) (xy 43.18 132.08)
@@ -5647,6 +5993,16 @@
 			(type default)
 		)
 		(uuid "c0c6486e-fd7c-43f5-b05b-d2d160301c6d")
+	)
+	(wire
+		(pts
+			(xy 62.23 129.54) (xy 67.31 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12d9455-81a0-409b-864f-1b8b9ae6a7aa")
 	)
 	(bus
 		(pts
@@ -5660,13 +6016,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 129.54) (xy 227.33 129.54)
+			(xy 142.24 83.82) (xy 147.32 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1df1ee9-f593-4c1e-aecd-8c4ebcc614e1")
+		(uuid "c2aa0c9e-0e8b-4cb0-8b0d-9b5c04185646")
 	)
 	(wire
 		(pts
@@ -5677,16 +6033,6 @@
 			(type default)
 		)
 		(uuid "c2b828c6-0bcb-45a7-9645-6b31f0e089e1")
-	)
-	(wire
-		(pts
-			(xy 273.05 99.06) (xy 280.67 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c36a0037-eb94-4a02-8126-623df895214d")
 	)
 	(bus
 		(pts
@@ -5718,6 +6064,16 @@
 		)
 		(uuid "c4d87efe-102a-43ad-b203-9c8f12279b05")
 	)
+	(wire
+		(pts
+			(xy 214.63 99.06) (xy 217.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6397817-14fe-43d9-bb7f-20186221d939")
+	)
 	(bus
 		(pts
 			(xy 43.18 101.6) (xy 43.18 116.84)
@@ -5727,6 +6083,26 @@
 			(type default)
 		)
 		(uuid "c7a7b5c8-f7f9-44fe-997b-f704b848a697")
+	)
+	(wire
+		(pts
+			(xy 267.97 99.06) (xy 270.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b06a11-9c71-44a9-a48a-5332d2d6e64b")
+	)
+	(wire
+		(pts
+			(xy 267.97 83.82) (xy 270.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c4d3c2-20fc-489f-ae78-8e58db093746")
 	)
 	(wire
 		(pts
@@ -5757,6 +6133,16 @@
 			(type default)
 		)
 		(uuid "c902d541-bdb1-4412-aef0-38050f18c157")
+	)
+	(wire
+		(pts
+			(xy 187.96 129.54) (xy 190.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c932288d-024c-45fa-bce5-c90c041a0c8a")
 	)
 	(bus
 		(pts
@@ -5810,16 +6196,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 129.54) (xy 40.64 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc78cb41-f672-4346-a23e-e62f86b869aa")
-	)
-	(wire
-		(pts
 			(xy 113.03 62.23) (xy 113.03 25.4)
 		)
 		(stroke
@@ -5830,13 +6206,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 129.54) (xy 173.99 129.54)
+			(xy 161.29 144.78) (xy 163.83 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d21a9f9b-2b20-4a7a-8f42-2e0e6a0addb5")
+		(uuid "d0400466-906f-4d3d-9fd8-3a0da816c716")
 	)
 	(wire
 		(pts
@@ -5867,6 +6243,26 @@
 			(type default)
 		)
 		(uuid "d3011962-8d24-440a-9413-ecc1867f17c0")
+	)
+	(wire
+		(pts
+			(xy 275.59 83.82) (xy 280.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45d4fd7-8e16-4c1a-86c2-448b86aafd87")
+	)
+	(wire
+		(pts
+			(xy 195.58 83.82) (xy 200.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d517dc41-bfa2-4a8c-a598-dfbce697ba09")
 	)
 	(bus
 		(pts
@@ -5950,6 +6346,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 144.78) (xy 93.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87047dc-f3e7-4f3e-aedb-b2c2203bf386")
+	)
+	(wire
+		(pts
 			(xy 233.68 46.99) (xy 237.49 46.99)
 		)
 		(stroke
@@ -5968,6 +6374,16 @@
 		)
 		(uuid "d9d078e2-67e9-4b61-a16d-d1edc0913071")
 	)
+	(wire
+		(pts
+			(xy 161.29 129.54) (xy 163.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da207c01-4ac3-402e-a6b7-2dfe349e2a82")
+	)
 	(bus
 		(pts
 			(xy 231.14 116.84) (xy 231.14 132.08)
@@ -5980,23 +6396,23 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 129.54) (xy 254 129.54)
+			(xy 142.24 99.06) (xy 147.32 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc3eb6f5-861e-4421-90b9-34f127790230")
+		(uuid "dd3a5ca1-dfb8-44d6-adf7-053995572684")
 	)
 	(wire
 		(pts
-			(xy 193.04 114.3) (xy 200.66 114.3)
+			(xy 88.9 83.82) (xy 93.98 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc63248c-eda6-48b8-b2a5-0c90f0e8b126")
+		(uuid "dfa155bc-361c-4efe-b84a-66a8b45d008a")
 	)
 	(bus
 		(pts
@@ -6027,6 +6443,16 @@
 			(type default)
 		)
 		(uuid "e03ccf14-5c53-40d7-8797-236789c017bb")
+	)
+	(wire
+		(pts
+			(xy 35.56 129.54) (xy 40.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e821fe-7038-43b5-b933-a1ddb9879cda")
 	)
 	(bus
 		(pts
@@ -6068,16 +6494,6 @@
 		)
 		(uuid "e33aa91e-b303-4808-9306-5d21d882d24f")
 	)
-	(wire
-		(pts
-			(xy 193.04 99.06) (xy 200.66 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3cd478f-284d-47fc-9519-8a2d4b36c9e5")
-	)
 	(bus
 		(pts
 			(xy 97.79 86.36) (xy 97.79 101.6)
@@ -6100,13 +6516,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 144.78) (xy 67.31 144.78)
+			(xy 195.58 144.78) (xy 200.66 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4f021ad-81f6-41a3-b859-9c165a40f743")
+		(uuid "e4fc712d-24d6-4651-b350-86182750def2")
 	)
 	(wire
 		(pts
@@ -6158,6 +6574,16 @@
 		)
 		(uuid "e7098694-7042-4821-8acc-f8048edf61bd")
 	)
+	(wire
+		(pts
+			(xy 54.61 144.78) (xy 57.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a662ae-6189-4e42-a345-0750a11dab83")
+	)
 	(bus
 		(pts
 			(xy 158.75 46.99) (xy 158.75 44.45)
@@ -6177,6 +6603,26 @@
 			(type default)
 		)
 		(uuid "e91ab0c7-2811-404e-841f-b92349c20ce1")
+	)
+	(wire
+		(pts
+			(xy 35.56 83.82) (xy 40.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95c1cff-362c-4a56-ab13-fa3b6dd6393f")
+	)
+	(wire
+		(pts
+			(xy 195.58 99.06) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96b52a9-1635-4e60-9317-0ad1d5381c2c")
 	)
 	(bus
 		(pts
@@ -6220,6 +6666,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 129.54) (xy 173.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1ae425-9e3a-4818-bef2-691da505a8f9")
+	)
+	(wire
+		(pts
 			(xy 104.14 49.53) (xy 107.95 49.53)
 		)
 		(stroke
@@ -6240,23 +6696,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 99.06) (xy 93.98 99.06)
+			(xy 88.9 99.06) (xy 93.98 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee288d7b-a978-4ba1-81ca-3120e6a0a20a")
-	)
-	(wire
-		(pts
-			(xy 193.04 129.54) (xy 200.66 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee2f59e6-274c-4851-86ec-313abaac91c6")
+		(uuid "ee1992e4-083b-415e-981e-cacf6aafd0d1")
 	)
 	(bus
 		(pts
@@ -6290,6 +6736,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 129.54) (xy 83.82 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09d8074-3deb-44a6-8a2f-60ad75417e43")
+	)
+	(wire
+		(pts
 			(xy 104.14 46.99) (xy 107.95 46.99)
 		)
 		(stroke
@@ -6297,16 +6753,6 @@
 			(type default)
 		)
 		(uuid "f11bce45-c7e0-4464-82dd-8690bc7ff6ab")
-	)
-	(wire
-		(pts
-			(xy 113.03 129.54) (xy 120.65 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1363ec2-7132-4c96-8092-df46835f9c7e")
 	)
 	(bus
 		(pts
@@ -6318,6 +6764,16 @@
 		)
 		(uuid "f19ccb11-2e8f-4d17-b0ad-94145fbaf317")
 	)
+	(wire
+		(pts
+			(xy 81.28 99.06) (xy 83.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26535b2-6b22-45b0-b2c1-c615c51e7416")
+	)
 	(bus
 		(pts
 			(xy 203.2 13.97) (xy 203.2 39.37)
@@ -6327,6 +6783,16 @@
 			(type default)
 		)
 		(uuid "f27769c9-dabd-4519-acdc-5c273327d173")
+	)
+	(wire
+		(pts
+			(xy 142.24 129.54) (xy 147.32 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29c367f-be18-4925-acfd-e142739ef748")
 	)
 	(bus
 		(pts
@@ -6380,6 +6846,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 99.06) (xy 30.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f531102e-c15c-4a7f-9f8b-8028a182aea0")
+	)
+	(wire
+		(pts
 			(xy 74.93 49.53) (xy 78.74 49.53)
 		)
 		(stroke
@@ -6400,6 +6876,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 129.54) (xy 243.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f6b699-17f1-475a-a454-045f20ae8f11")
+	)
+	(wire
+		(pts
 			(xy 147.32 46.99) (xy 151.13 46.99)
 		)
 		(stroke
@@ -6417,16 +6903,6 @@
 			(type default)
 		)
 		(uuid "f6d1c6a0-1de2-4e17-a4a5-97e09e975958")
-	)
-	(wire
-		(pts
-			(xy 166.37 114.3) (xy 173.99 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f70048f7-41dc-4e45-987d-1f7fd2e74cf8")
 	)
 	(bus
 		(pts
@@ -6458,6 +6934,16 @@
 		)
 		(uuid "f7597724-a3f0-4b51-97c8-b0b845e2c842")
 	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 110.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78ab2f0-89ec-47a6-8b00-24c499c28659")
+	)
 	(bus
 		(pts
 			(xy 158.75 49.53) (xy 158.75 46.99)
@@ -6468,6 +6954,16 @@
 		)
 		(uuid "f8183ea8-4bae-4013-8f2c-9ad1375583bf")
 	)
+	(wire
+		(pts
+			(xy 27.94 83.82) (xy 30.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8718f17-ecbb-4f57-921a-d4f2d158903e")
+	)
 	(bus
 		(pts
 			(xy 72.39 17.78) (xy 72.39 44.45)
@@ -6477,16 +6973,6 @@
 			(type default)
 		)
 		(uuid "f8b38d82-98aa-4f34-8685-a75a95b0af43")
-	)
-	(wire
-		(pts
-			(xy 33.02 83.82) (xy 40.64 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f90b0cac-7929-426f-b9fb-21d4ebe38ac7")
 	)
 	(wire
 		(pts
@@ -6589,7 +7075,7 @@
 		(uuid "01642b46-ced0-49db-8e73-e5fc1c59f13b")
 	)
 	(label "OUT32"
-		(at 139.7 83.82 0)
+		(at 142.24 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6599,7 +7085,7 @@
 		(uuid "04562309-0385-461b-b995-a2637b83adf7")
 	)
 	(label "OUT2"
-		(at 86.36 114.3 0)
+		(at 88.9 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6609,7 +7095,7 @@
 		(uuid "063e06c9-4175-4633-b758-6ea4cc6ca6b2")
 	)
 	(label "OUT15"
-		(at 59.69 129.54 0)
+		(at 62.23 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6669,7 +7155,7 @@
 		(uuid "12a67f75-f5e0-46e7-a0b9-ab9988d091e9")
 	)
 	(label "OUT23"
-		(at 166.37 129.54 0)
+		(at 168.91 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6689,7 +7175,7 @@
 		(uuid "13f228d3-5a75-4a92-a85c-f78a789e14ee")
 	)
 	(label "OUT11"
-		(at 273.05 99.06 0)
+		(at 275.59 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6709,7 +7195,7 @@
 		(uuid "15242dc3-528a-471c-9371-4c79d9400f0c")
 	)
 	(label "OUT43"
-		(at 113.03 83.82 0)
+		(at 115.57 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6719,7 +7205,7 @@
 		(uuid "163fb865-0e33-4665-bf77-bce27ff36aec")
 	)
 	(label "OUT22"
-		(at 139.7 129.54 0)
+		(at 142.24 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6729,7 +7215,7 @@
 		(uuid "16b1423a-cd72-465f-b8e6-dca3ea2346ab")
 	)
 	(label "OUT0"
-		(at 33.02 114.3 0)
+		(at 35.56 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6819,7 +7305,7 @@
 		(uuid "1e750d8c-ddce-417a-ae76-7ef2df5a1c66")
 	)
 	(label "OUT7"
-		(at 219.71 114.3 0)
+		(at 222.25 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6869,7 +7355,7 @@
 		(uuid "24889957-3448-4503-a754-32d05472d1ca")
 	)
 	(label "OUT37"
-		(at 59.69 144.78 0)
+		(at 62.23 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6879,7 +7365,7 @@
 		(uuid "2647c95f-a3c0-47bf-9021-c631f54ace41")
 	)
 	(label "OUT36"
-		(at 33.02 144.78 0)
+		(at 35.56 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6899,7 +7385,7 @@
 		(uuid "27e08e79-29a9-4dbd-a2b6-f31995226370")
 	)
 	(label "OUT25"
-		(at 273.05 83.82 0)
+		(at 275.59 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6969,7 +7455,7 @@
 		(uuid "36a7462f-b285-4347-ab41-9cba148be9fd")
 	)
 	(label "OUT46"
-		(at 193.04 144.78 0)
+		(at 195.58 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6979,7 +7465,7 @@
 		(uuid "36dfe9c4-d413-4e90-a1c9-5324fdfbc7f8")
 	)
 	(label "OUT16"
-		(at 86.36 99.06 0)
+		(at 88.9 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7059,7 +7545,7 @@
 		(uuid "426e52b8-0975-4da3-bfcb-7defc98a82fc")
 	)
 	(label "OUT31"
-		(at 273.05 129.54 0)
+		(at 275.59 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7129,7 +7615,7 @@
 		(uuid "47393c06-2450-46a4-b7a2-94e5e345468c")
 	)
 	(label "OUT45"
-		(at 166.37 144.78 0)
+		(at 168.91 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7239,7 +7725,7 @@
 		(uuid "5b9adf73-9685-44c8-b83a-ab8c9d31905d")
 	)
 	(label "OUT38"
-		(at 86.36 144.78 0)
+		(at 88.9 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7249,7 +7735,7 @@
 		(uuid "5c995abf-6708-4a85-92ce-8867459309f4")
 	)
 	(label "OUT21"
-		(at 113.03 129.54 0)
+		(at 115.57 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7269,7 +7755,7 @@
 		(uuid "5ec82c9e-b055-4f2f-8fa5-d26d01f52354")
 	)
 	(label "OUT10"
-		(at 246.38 99.06 0)
+		(at 248.92 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7279,7 +7765,7 @@
 		(uuid "5f9a7a0a-f756-4b79-8461-083d08f21322")
 	)
 	(label "OUT6"
-		(at 193.04 114.3 0)
+		(at 195.58 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7299,7 +7785,7 @@
 		(uuid "6291cf46-eb97-4abe-8788-54c8c74a8248")
 	)
 	(label "OUT14"
-		(at 33.02 129.54 0)
+		(at 35.56 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7339,7 +7825,7 @@
 		(uuid "6747bcd0-3c65-4093-a350-1f66f63a9c6c")
 	)
 	(label "OUT26"
-		(at 33.02 99.06 0)
+		(at 35.56 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7369,7 +7855,7 @@
 		(uuid "6dc7e09c-9251-4a98-a6c0-038aba82b91d")
 	)
 	(label "OUT8"
-		(at 193.04 99.06 0)
+		(at 195.58 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7389,7 +7875,7 @@
 		(uuid "6e634d65-818c-4ebf-8041-feed39c03b2e")
 	)
 	(label "OUT40"
-		(at 33.02 83.82 0)
+		(at 35.56 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7439,7 +7925,7 @@
 		(uuid "7b2eff22-129e-4660-a990-012dcbd0ba8a")
 	)
 	(label "OUT47"
-		(at 219.71 144.78 0)
+		(at 222.25 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7449,7 +7935,7 @@
 		(uuid "7bda81a7-7ba5-4590-a836-0cbeeec6be78")
 	)
 	(label "OUT35"
-		(at 219.71 83.82 0)
+		(at 222.25 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7479,7 +7965,7 @@
 		(uuid "81149a50-8842-4f29-89ef-a9b8b32f3543")
 	)
 	(label "OUT29"
-		(at 219.71 129.54 0)
+		(at 222.25 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7559,7 +8045,7 @@
 		(uuid "8ae6774e-ff31-47e7-93ef-bf1699a5a038")
 	)
 	(label "OUT18"
-		(at 139.7 99.06 0)
+		(at 142.24 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7609,7 +8095,7 @@
 		(uuid "913ab740-2487-46fb-8f68-b3628778f566")
 	)
 	(label "OUT41"
-		(at 59.69 83.82 0)
+		(at 62.23 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7619,7 +8105,7 @@
 		(uuid "91ed445a-77a4-4279-9785-556a853dcfcb")
 	)
 	(label "OUT42"
-		(at 86.36 83.82 0)
+		(at 88.9 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7639,7 +8125,7 @@
 		(uuid "96459938-1934-466d-afc0-7a89945e398d")
 	)
 	(label "OUT34"
-		(at 193.04 83.82 0)
+		(at 195.58 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7649,7 +8135,7 @@
 		(uuid "98884e66-8399-42c2-a02c-3995370f7113")
 	)
 	(label "OUT3"
-		(at 113.03 114.3 0)
+		(at 115.57 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7659,7 +8145,7 @@
 		(uuid "9c52097f-d876-4aa4-af72-cb3769d79ba3")
 	)
 	(label "OUT9"
-		(at 219.71 99.06 0)
+		(at 222.25 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7679,7 +8165,7 @@
 		(uuid "9ef38ec0-a79e-43bc-aab1-505d8a17783b")
 	)
 	(label "OUT28"
-		(at 193.04 129.54 0)
+		(at 195.58 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7749,7 +8235,7 @@
 		(uuid "a95c9328-9ea5-40f2-8790-bb1097ce1dd4")
 	)
 	(label "OUT5"
-		(at 166.37 114.3 0)
+		(at 168.91 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7759,7 +8245,7 @@
 		(uuid "a99b9557-6255-4d6f-aea8-a711c0539616")
 	)
 	(label "OUT20"
-		(at 86.36 129.54 0)
+		(at 88.9 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7769,7 +8255,7 @@
 		(uuid "ae207057-4ee8-4d06-80ad-da27a6fc8fd3")
 	)
 	(label "OUT4"
-		(at 139.7 114.3 0)
+		(at 142.24 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7799,7 +8285,7 @@
 		(uuid "b2c3a6ae-4b35-454a-b1f5-724b3f33dac9")
 	)
 	(label "OUT27"
-		(at 59.69 99.06 0)
+		(at 62.23 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7809,7 +8295,7 @@
 		(uuid "b6673349-3154-4e0c-aad9-de16f38083db")
 	)
 	(label "OUT1"
-		(at 59.69 114.3 0)
+		(at 62.23 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7829,7 +8315,7 @@
 		(uuid "b9ff34b8-61e4-48f9-9f4d-7bde51845d33")
 	)
 	(label "OUT17"
-		(at 113.03 99.06 0)
+		(at 115.57 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7849,7 +8335,7 @@
 		(uuid "bc6e29db-7e97-4326-9b28-c0961c661aaf")
 	)
 	(label "OUT33"
-		(at 166.37 83.82 0)
+		(at 168.91 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7899,7 +8385,7 @@
 		(uuid "be0135ff-f7b1-402b-aa34-bcdb4eff1038")
 	)
 	(label "OUT44"
-		(at 139.7 144.78 0)
+		(at 142.24 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7959,7 +8445,7 @@
 		(uuid "cc08816c-bb8b-46c9-a3ec-f53b6dcaee47")
 	)
 	(label "OUT39"
-		(at 113.03 144.78 0)
+		(at 115.57 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8079,7 +8565,7 @@
 		(uuid "d9d971e9-3232-4d53-b682-c6de1c51e288")
 	)
 	(label "OUT24"
-		(at 246.38 83.82 0)
+		(at 248.92 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8189,7 +8675,7 @@
 		(uuid "e8cb3270-aab1-4664-a62f-06b0597de459")
 	)
 	(label "OUT30"
-		(at 246.38 129.54 0)
+		(at 248.92 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8229,7 +8715,7 @@
 		(uuid "f1d66050-cf9f-43bf-91c5-74f5d1fcb929")
 	)
 	(label "OUT13"
-		(at 273.05 114.3 0)
+		(at 275.59 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8249,7 +8735,7 @@
 		(uuid "f3a06e91-0bb7-42e7-bcbc-9feea1eb4fe9")
 	)
 	(label "OUT12"
-		(at 246.38 114.3 0)
+		(at 248.92 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8319,7 +8805,7 @@
 		(uuid "fa5c0a9a-1b30-4204-8a09-fe61b84776d9")
 	)
 	(label "OUT19"
-		(at 166.37 99.06 0)
+		(at 168.91 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8431,7 +8917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 57.15 92.71 0)
 			(effects
 				(font
@@ -8441,7 +8927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 52.07 88.9 0)
 			(effects
 				(font
@@ -8506,7 +8992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 57.15 153.67 0)
 			(effects
 				(font
@@ -8516,7 +9002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 52.07 149.86 0)
 			(effects
 				(font
@@ -8545,7 +9031,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 144.78 270)
+		(at 33.02 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8554,7 +9040,7 @@
 		(fields_autoplaced yes)
 		(uuid "055b112c-655f-43bf-bbc6-39882ab5cebc")
 		(property "Reference" "C41"
-			(at 30.4736 138.43 90)
+			(at 33.0136 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,7 +9048,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 30.4736 140.97 90)
+			(at 33.0136 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +9056,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 30.48 144.78 0)
+			(at 33.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +9065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 144.78 0)
+			(at 33.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +9074,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 30.48 144.78 0)
+			(at 33.02 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +9142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 124.46 0)
 			(effects
 				(font
@@ -8715,7 +9201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 110.49 123.19 0)
 			(effects
 				(font
@@ -8725,7 +9211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 105.41 119.38 0)
 			(effects
 				(font
@@ -8797,7 +9283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 154.94 0)
 			(effects
 				(font
@@ -8820,7 +9306,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 163.83 114.3 270)
+		(at 166.37 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8829,7 +9315,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b5e1104-0453-48a0-8eb6-411618ae1642")
 		(property "Reference" "C26"
-			(at 163.8236 107.95 90)
+			(at 166.3636 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8837,7 +9323,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 163.8236 110.49 90)
+			(at 166.3636 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +9331,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 163.83 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8854,7 +9340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +9349,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +9410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 110.49 107.95 0)
 			(effects
 				(font
@@ -8934,7 +9420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 105.41 104.14 0)
 			(effects
 				(font
@@ -8999,7 +9485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 163.83 153.67 0)
 			(effects
 				(font
@@ -9009,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 158.75 149.86 0)
 			(effects
 				(font
@@ -9074,7 +9560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 243.84 107.95 0)
 			(effects
 				(font
@@ -9084,7 +9570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 238.76 104.14 0)
 			(effects
 				(font
@@ -9157,7 +9643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -9223,7 +9709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 124.46 0)
 			(effects
 				(font
@@ -9246,7 +9732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 114.3 90)
+		(at 33.02 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9255,7 +9741,7 @@
 		(fields_autoplaced yes)
 		(uuid "14dfeaee-f501-4063-a6f9-10c5dc88fade")
 		(property "Reference" "C21"
-			(at 30.4863 107.95 90)
+			(at 33.0263 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,7 +9749,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 30.4863 110.49 90)
+			(at 33.0263 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9271,7 +9757,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 30.48 114.3 0)
+			(at 33.02 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +9766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 114.3 0)
+			(at 33.02 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +9775,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 30.48 114.3 0)
+			(at 33.02 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9800,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 129.54 270)
+		(at 193.04 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9323,7 +9809,7 @@
 		(fields_autoplaced yes)
 		(uuid "15d57406-0cb8-49ae-96af-9f400ca133ea")
 		(property "Reference" "C37"
-			(at 190.4936 123.19 90)
+			(at 193.0336 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9817,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 190.4936 125.73 90)
+			(at 193.0336 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +9825,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 190.5 129.54 0)
+			(at 193.04 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9348,7 +9834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 129.54 0)
+			(at 193.04 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,7 +9843,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 129.54 0)
+			(at 193.04 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +9972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 137.16 123.19 0)
 			(effects
 				(font
@@ -9496,7 +9982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 132.08 119.38 0)
 			(effects
 				(font
@@ -9525,7 +10011,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 129.54 270)
+		(at 33.02 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9534,7 +10020,7 @@
 		(fields_autoplaced yes)
 		(uuid "17f044e1-2601-41f0-baa3-4ef981d79811")
 		(property "Reference" "C31"
-			(at 30.4736 123.19 90)
+			(at 33.0136 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,7 +10028,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 30.4736 125.73 90)
+			(at 33.0136 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9550,7 +10036,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 30.48 129.54 0)
+			(at 33.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +10045,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 129.54 0)
+			(at 33.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,7 +10054,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 30.48 129.54 0)
+			(at 33.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9636,7 +10122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 139.7 0)
 			(effects
 				(font
@@ -9763,7 +10249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 137.16 153.67 0)
 			(effects
 				(font
@@ -9773,7 +10259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 132.08 149.86 0)
 			(effects
 				(font
@@ -9838,7 +10324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 163.83 107.95 0)
 			(effects
 				(font
@@ -9848,7 +10334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 158.75 104.14 0)
 			(effects
 				(font
@@ -9920,7 +10406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -9986,7 +10472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 139.7 0)
 			(effects
 				(font
@@ -10009,7 +10495,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 270.51 99.06 90)
+		(at 273.05 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10018,7 +10504,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eb13532-1303-4044-b31a-b13dc6c6d755")
 		(property "Reference" "C20"
-			(at 270.5163 92.71 90)
+			(at 273.0563 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10026,7 +10512,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 270.5163 95.25 90)
+			(at 273.0563 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10520,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 270.51 99.06 0)
+			(at 273.05 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,7 +10529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 99.06 0)
+			(at 273.05 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +10538,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 270.51 99.06 0)
+			(at 273.05 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 93.98 0)
 			(effects
 				(font
@@ -10143,7 +10629,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 83.82 90)
+		(at 193.04 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10152,7 +10638,7 @@
 		(fields_autoplaced yes)
 		(uuid "210af280-8b43-4aff-91de-85d182f814f9")
 		(property "Reference" "C7"
-			(at 190.5063 77.47 90)
+			(at 193.0463 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,7 +10646,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 190.5063 80.01 90)
+			(at 193.0463 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10654,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 190.5 83.82 0)
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +10663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 83.82 0)
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +10672,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 83.82 0)
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +10741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 69.85 0)
 			(effects
 				(font
@@ -10278,7 +10764,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 129.54 270)
+		(at 113.03 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10287,7 +10773,7 @@
 		(fields_autoplaced yes)
 		(uuid "22850b64-6e58-4ab7-9769-1648186a403b")
 		(property "Reference" "C34"
-			(at 110.4836 123.19 90)
+			(at 113.0236 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10781,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 110.4836 125.73 90)
+			(at 113.0236 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10789,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 110.49 129.54 0)
+			(at 113.03 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,7 +10798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 129.54 0)
+			(at 113.03 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10321,7 +10807,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 129.54 0)
+			(at 113.03 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10389,7 +10875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 54.61 93.98 0)
 			(effects
 				(font
@@ -10448,7 +10934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 270.51 138.43 0)
 			(effects
 				(font
@@ -10458,7 +10944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 265.43 134.62 0)
 			(effects
 				(font
@@ -10487,7 +10973,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 99.06 90)
+		(at 139.7 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10496,7 +10982,7 @@
 		(fields_autoplaced yes)
 		(uuid "24caaae6-3fed-4402-b0ae-2ecae802ba2f")
 		(property "Reference" "C15"
-			(at 137.1663 92.71 90)
+			(at 139.7063 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +10990,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 137.1663 95.25 90)
+			(at 139.7063 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10998,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 137.16 99.06 0)
+			(at 139.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +11007,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 99.06 0)
+			(at 139.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +11016,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 99.06 0)
+			(at 139.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,7 +11041,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 99.06 90)
+		(at 113.03 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10564,7 +11050,7 @@
 		(fields_autoplaced yes)
 		(uuid "2618d09b-b047-477b-89a3-91cc6490f2bd")
 		(property "Reference" "C14"
-			(at 110.4963 92.71 90)
+			(at 113.0363 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +11058,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 110.4963 95.25 90)
+			(at 113.0363 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,7 +11066,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 110.49 99.06 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,7 +11075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 99.06 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10598,7 +11084,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 99.06 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +11145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 57.15 123.19 0)
 			(effects
 				(font
@@ -10669,7 +11155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 52.07 119.38 0)
 			(effects
 				(font
@@ -10698,7 +11184,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 83.82 90)
+		(at 33.02 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10707,7 +11193,7 @@
 		(fields_autoplaced yes)
 		(uuid "27274289-86f1-4818-a29f-9181a0d18416")
 		(property "Reference" "C1"
-			(at 30.4863 77.47 90)
+			(at 33.0263 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +11201,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 30.4863 80.01 90)
+			(at 33.0263 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,7 +11209,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 30.48 83.82 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,7 +11218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 83.82 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +11227,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 30.48 83.82 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,7 +11296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -10833,7 +11319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 243.84 99.06 90)
+		(at 246.38 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10842,7 +11328,7 @@
 		(fields_autoplaced yes)
 		(uuid "282edc16-407e-409e-8793-8c893b420685")
 		(property "Reference" "C19"
-			(at 243.8463 92.71 90)
+			(at 246.3863 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +11336,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 243.8463 95.25 90)
+			(at 246.3863 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,7 +11344,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 243.84 99.06 0)
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10867,7 +11353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 99.06 0)
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +11362,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 243.84 99.06 0)
+			(at 246.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,7 +11387,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 83.82 90)
+		(at 113.03 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10910,7 +11396,7 @@
 		(fields_autoplaced yes)
 		(uuid "28c02ba3-e48e-4052-abc8-78120f401346")
 		(property "Reference" "C4"
-			(at 110.4963 77.47 90)
+			(at 113.0363 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,7 +11404,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 110.4963 80.01 90)
+			(at 113.0363 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10926,7 +11412,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 110.49 83.82 0)
+			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,7 +11421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 83.82 0)
+			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10944,7 +11430,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 83.82 0)
+			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,7 +11498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.82 34.29 0)
 			(effects
 				(font
@@ -11078,7 +11564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 154.94 0)
 			(effects
 				(font
@@ -11137,7 +11623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 83.82 92.71 0)
 			(effects
 				(font
@@ -11147,7 +11633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -11176,7 +11662,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 270.51 129.54 270)
+		(at 273.05 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11185,7 +11671,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b40e8d2-5f1d-4b3d-983b-7911b07bd4cd")
 		(property "Reference" "C40"
-			(at 270.5036 123.19 90)
+			(at 273.0436 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,7 +11679,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 270.5036 125.73 90)
+			(at 273.0436 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11687,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +11696,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +11705,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 270.51 129.54 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11356,7 +11842,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 83.82 99.06 90)
+		(at 86.36 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11365,7 +11851,7 @@
 		(fields_autoplaced yes)
 		(uuid "42a5243f-0e6b-4772-b5d6-6ede93005cce")
 		(property "Reference" "C13"
-			(at 83.8263 92.71 90)
+			(at 86.3663 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11373,7 +11859,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 83.8263 95.25 90)
+			(at 86.3663 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11381,7 +11867,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 83.82 99.06 0)
+			(at 86.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11390,7 +11876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 99.06 0)
+			(at 86.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11399,7 +11885,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 99.06 0)
+			(at 86.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11424,7 +11910,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 270.51 114.3 270)
+		(at 273.05 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11433,7 +11919,7 @@
 		(fields_autoplaced yes)
 		(uuid "435e13d2-3ef7-474b-b061-e8231f32ccd2")
 		(property "Reference" "C30"
-			(at 270.5036 107.95 90)
+			(at 273.0436 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11441,7 +11927,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 270.5036 110.49 90)
+			(at 273.0436 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,7 +11935,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 270.51 114.3 0)
+			(at 273.05 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 114.3 0)
+			(at 273.05 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11467,7 +11953,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 270.51 114.3 0)
+			(at 273.05 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +12014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 110.49 153.67 0)
 			(effects
 				(font
@@ -11538,7 +12024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 105.41 149.86 0)
 			(effects
 				(font
@@ -11603,7 +12089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 163.83 92.71 0)
 			(effects
 				(font
@@ -11613,7 +12099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -11678,7 +12164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 217.17 138.43 0)
 			(effects
 				(font
@@ -11688,7 +12174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 212.09 134.62 0)
 			(effects
 				(font
@@ -11760,7 +12246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 213.36 34.29 0)
 			(effects
 				(font
@@ -11783,7 +12269,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 163.83 129.54 270)
+		(at 166.37 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11792,7 +12278,7 @@
 		(fields_autoplaced yes)
 		(uuid "49e3022a-ade4-49c6-8849-1a0174d6a75f")
 		(property "Reference" "C36"
-			(at 163.8236 123.19 90)
+			(at 166.3636 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,7 +12286,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 163.8236 125.73 90)
+			(at 166.3636 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,7 +12294,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 163.83 129.54 0)
+			(at 166.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +12303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 129.54 0)
+			(at 166.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11826,7 +12312,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 129.54 0)
+			(at 166.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,7 +12373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 217.17 153.67 0)
 			(effects
 				(font
@@ -11897,7 +12383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 212.09 149.86 0)
 			(effects
 				(font
@@ -11962,7 +12448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 83.82 123.19 0)
 			(effects
 				(font
@@ -11972,7 +12458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -12001,7 +12487,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 217.17 144.78 270)
+		(at 219.71 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12010,7 +12496,7 @@
 		(fields_autoplaced yes)
 		(uuid "50ec347a-60aa-4d5a-867e-3eba271baeee")
 		(property "Reference" "C48"
-			(at 217.1636 138.43 90)
+			(at 219.7036 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +12504,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 217.1636 140.97 90)
+			(at 219.7036 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,7 +12512,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 217.17 144.78 0)
+			(at 219.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12035,7 +12521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 144.78 0)
+			(at 219.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,7 +12530,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 144.78 0)
+			(at 219.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12112,7 +12598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 124.46 0)
 			(effects
 				(font
@@ -12178,7 +12664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 267.97 139.7 0)
 			(effects
 				(font
@@ -12201,7 +12687,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 57.15 114.3 90)
+		(at 59.69 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12210,7 +12696,7 @@
 		(fields_autoplaced yes)
 		(uuid "560425b6-930a-407d-a122-ecc52a760045")
 		(property "Reference" "C22"
-			(at 57.1563 107.95 90)
+			(at 59.6963 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12218,7 +12704,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 57.1563 110.49 90)
+			(at 59.6963 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,7 +12712,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 57.15 114.3 0)
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +12721,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 114.3 0)
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +12730,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 57.15 114.3 0)
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12312,7 +12798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 109.22 0)
 			(effects
 				(font
@@ -12379,7 +12865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 264.16 69.85 0)
 			(effects
 				(font
@@ -12438,7 +12924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 270.51 107.95 0)
 			(effects
 				(font
@@ -12448,7 +12934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 265.43 104.14 0)
 			(effects
 				(font
@@ -12520,7 +13006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -12586,7 +13072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 220.98 34.29 0)
 			(effects
 				(font
@@ -12652,7 +13138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 267.97 124.46 0)
 			(effects
 				(font
@@ -12711,7 +13197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 190.5 138.43 0)
 			(effects
 				(font
@@ -12721,7 +13207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -12793,7 +13279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 124.46 0)
 			(effects
 				(font
@@ -12852,7 +13338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 30.48 138.43 0)
 			(effects
 				(font
@@ -12862,7 +13348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 25.4 134.62 0)
 			(effects
 				(font
@@ -12891,7 +13377,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 83.82 114.3 90)
+		(at 86.36 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12900,7 +13386,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d39a823-ee07-402c-a3e7-0752c371524f")
 		(property "Reference" "C23"
-			(at 83.8263 107.95 90)
+			(at 86.3663 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12908,7 +13394,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 83.8263 110.49 90)
+			(at 86.3663 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12916,7 +13402,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 83.82 114.3 0)
+			(at 86.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12925,7 +13411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 114.3 0)
+			(at 86.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12934,7 +13420,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 114.3 0)
+			(at 86.36 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13002,7 +13488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 264.16 34.29 0)
 			(effects
 				(font
@@ -13061,7 +13547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 190.5 107.95 0)
 			(effects
 				(font
@@ -13071,7 +13557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 185.42 104.14 0)
 			(effects
 				(font
@@ -13136,7 +13622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 190.5 153.67 0)
 			(effects
 				(font
@@ -13146,7 +13632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 185.42 149.86 0)
 			(effects
 				(font
@@ -13211,7 +13697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 57.15 107.95 0)
 			(effects
 				(font
@@ -13221,7 +13707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 52.07 104.14 0)
 			(effects
 				(font
@@ -13293,7 +13779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 40.64 34.29 0)
 			(effects
 				(font
@@ -13359,7 +13845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 34.29 0)
 			(effects
 				(font
@@ -13382,7 +13868,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 83.82 90)
+		(at 139.7 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13391,7 +13877,7 @@
 		(fields_autoplaced yes)
 		(uuid "79a17c41-8c62-4f6c-9e75-d81b03ae42eb")
 		(property "Reference" "C5"
-			(at 137.1663 77.47 90)
+			(at 139.7063 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13885,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 137.1663 80.01 90)
+			(at 139.7063 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13407,7 +13893,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 137.16 83.82 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,7 +13902,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 83.82 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13425,7 +13911,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 83.82 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +13972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 243.84 123.19 0)
 			(effects
 				(font
@@ -13496,7 +13982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 238.76 119.38 0)
 			(effects
 				(font
@@ -13741,7 +14227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 163.83 138.43 0)
 			(effects
 				(font
@@ -13751,7 +14237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 158.75 134.62 0)
 			(effects
 				(font
@@ -13816,7 +14302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 110.49 138.43 0)
 			(effects
 				(font
@@ -13826,7 +14312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 105.41 134.62 0)
 			(effects
 				(font
@@ -13855,7 +14341,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 217.17 129.54 270)
+		(at 219.71 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13864,7 +14350,7 @@
 		(fields_autoplaced yes)
 		(uuid "87537440-e9f8-4fcd-82ab-651c5ee35b1a")
 		(property "Reference" "C38"
-			(at 217.1636 123.19 90)
+			(at 219.7036 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13872,7 +14358,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 217.1636 125.73 90)
+			(at 219.7036 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13880,7 +14366,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 217.17 129.54 0)
+			(at 219.71 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13889,7 +14375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 129.54 0)
+			(at 219.71 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13898,7 +14384,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 129.54 0)
+			(at 219.71 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13923,7 +14409,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 217.17 114.3 270)
+		(at 219.71 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13932,7 +14418,7 @@
 		(fields_autoplaced yes)
 		(uuid "88e477d4-5c92-4d04-95e9-e57b7d126b63")
 		(property "Reference" "C28"
-			(at 217.1636 107.95 90)
+			(at 219.7036 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13940,7 +14426,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 217.1636 110.49 90)
+			(at 219.7036 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13948,7 +14434,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 217.17 114.3 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13957,7 +14443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 114.3 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,7 +14452,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 114.3 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14034,7 +14520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 154.94 0)
 			(effects
 				(font
@@ -14100,7 +14586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 109.22 0)
 			(effects
 				(font
@@ -14166,7 +14652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 109.22 0)
 			(effects
 				(font
@@ -14232,7 +14718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 109.22 0)
 			(effects
 				(font
@@ -14255,7 +14741,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 243.84 114.3 270)
+		(at 246.38 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14264,7 +14750,7 @@
 		(fields_autoplaced yes)
 		(uuid "9174d08f-3cc7-4667-8c5c-e77784d1d85a")
 		(property "Reference" "C29"
-			(at 243.8336 107.95 90)
+			(at 246.3736 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14272,7 +14758,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 243.8336 110.49 90)
+			(at 246.3736 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14280,7 +14766,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 243.84 114.3 0)
+			(at 246.38 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14289,7 +14775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 114.3 0)
+			(at 246.38 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14298,7 +14784,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 243.84 114.3 0)
+			(at 246.38 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14323,7 +14809,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 144.78 270)
+		(at 139.7 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14332,7 +14818,7 @@
 		(fields_autoplaced yes)
 		(uuid "91ec98e0-c5ee-4c9f-95db-9b474c268e61")
 		(property "Reference" "C45"
-			(at 137.1536 138.43 90)
+			(at 139.6936 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,7 +14826,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 137.1536 140.97 90)
+			(at 139.6936 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14348,7 +14834,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 137.16 144.78 0)
+			(at 139.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14357,7 +14843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 144.78 0)
+			(at 139.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14366,7 +14852,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 144.78 0)
+			(at 139.7 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14427,7 +14913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 137.16 138.43 0)
 			(effects
 				(font
@@ -14437,7 +14923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 132.08 134.62 0)
 			(effects
 				(font
@@ -14466,7 +14952,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 243.84 129.54 270)
+		(at 246.38 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14475,7 +14961,7 @@
 		(fields_autoplaced yes)
 		(uuid "94f692d0-b836-40a3-b147-5efb6005574b")
 		(property "Reference" "C39"
-			(at 243.8336 123.19 90)
+			(at 246.3736 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14483,7 +14969,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 243.8336 125.73 90)
+			(at 246.3736 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,7 +14977,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 243.84 129.54 0)
+			(at 246.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14500,7 +14986,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 129.54 0)
+			(at 246.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14509,7 +14995,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 243.84 129.54 0)
+			(at 246.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14570,7 +15056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -14580,7 +15066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 25.4 88.9 0)
 			(effects
 				(font
@@ -14609,7 +15095,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 114.3 270)
+		(at 193.04 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14618,7 +15104,7 @@
 		(fields_autoplaced yes)
 		(uuid "970a6588-0bda-4989-954e-5952f8917879")
 		(property "Reference" "C27"
-			(at 190.4936 107.95 90)
+			(at 193.0336 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14626,7 +15112,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 190.4936 110.49 90)
+			(at 193.0336 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14634,7 +15120,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 190.5 114.3 0)
+			(at 193.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14643,7 +15129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 114.3 0)
+			(at 193.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14652,7 +15138,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 114.3 0)
+			(at 193.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14677,7 +15163,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 114.3 270)
+		(at 139.7 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14686,7 +15172,7 @@
 		(fields_autoplaced yes)
 		(uuid "97271d57-e906-40c4-8418-49a00af7d27b")
 		(property "Reference" "C25"
-			(at 137.1536 107.95 90)
+			(at 139.6936 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14694,7 +15180,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 137.1536 110.49 90)
+			(at 139.6936 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14702,7 +15188,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 137.16 114.3 0)
+			(at 139.7 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14711,7 +15197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 114.3 0)
+			(at 139.7 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14720,7 +15206,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 114.3 0)
+			(at 139.7 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14745,7 +15231,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 217.17 99.06 90)
+		(at 219.71 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14754,7 +15240,7 @@
 		(fields_autoplaced yes)
 		(uuid "9765ec07-3b03-470b-befa-026f6386ca3c")
 		(property "Reference" "C18"
-			(at 217.1763 92.71 90)
+			(at 219.7163 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14762,7 +15248,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 217.1763 95.25 90)
+			(at 219.7163 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14770,7 +15256,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 217.17 99.06 0)
+			(at 219.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14779,7 +15265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 99.06 0)
+			(at 219.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14788,7 +15274,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 99.06 0)
+			(at 219.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14813,7 +15299,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 270.51 83.82 90)
+		(at 273.05 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14822,7 +15308,7 @@
 		(fields_autoplaced yes)
 		(uuid "998f4631-bb15-4fe6-8cf0-96d5771cb88b")
 		(property "Reference" "C10"
-			(at 270.5163 77.47 90)
+			(at 273.0563 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14830,7 +15316,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 270.5163 80.01 90)
+			(at 273.0563 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14838,7 +15324,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 270.51 83.82 0)
+			(at 273.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,7 +15333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 83.82 0)
+			(at 273.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14856,7 +15342,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 270.51 83.82 0)
+			(at 273.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14924,7 +15410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 154.94 0)
 			(effects
 				(font
@@ -14947,7 +15433,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 99.06 90)
+		(at 33.02 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14956,7 +15442,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bf39457-da2e-4b28-b507-28cff07dd4b6")
 		(property "Reference" "C11"
-			(at 30.4863 92.71 90)
+			(at 33.0263 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14964,7 +15450,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 30.4863 95.25 90)
+			(at 33.0263 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14972,7 +15458,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 30.48 99.06 0)
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14981,7 +15467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 99.06 0)
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14990,7 +15476,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 30.48 99.06 0)
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15058,7 +15544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 139.7 0)
 			(effects
 				(font
@@ -15124,7 +15610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 124.46 0)
 			(effects
 				(font
@@ -15147,7 +15633,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 83.82 144.78 270)
+		(at 86.36 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15156,7 +15642,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1205efc-1cfc-4e2f-85da-ebdf501da20b")
 		(property "Reference" "C43"
-			(at 83.8136 138.43 90)
+			(at 86.3536 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15164,7 +15650,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 83.8136 140.97 90)
+			(at 86.3536 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15172,7 +15658,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 83.82 144.78 0)
+			(at 86.36 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15181,7 +15667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 144.78 0)
+			(at 86.36 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15190,7 +15676,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 144.78 0)
+			(at 86.36 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15251,7 +15737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 243.84 138.43 0)
 			(effects
 				(font
@@ -15261,7 +15747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 238.76 134.62 0)
 			(effects
 				(font
@@ -15333,7 +15819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 124.46 0)
 			(effects
 				(font
@@ -15399,7 +15885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 109.22 0)
 			(effects
 				(font
@@ -15458,7 +15944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -15468,7 +15954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 25.4 149.86 0)
 			(effects
 				(font
@@ -15652,7 +16138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 139.7 0)
 			(effects
 				(font
@@ -15711,7 +16197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -15721,7 +16207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 78.74 149.86 0)
 			(effects
 				(font
@@ -15793,7 +16279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 93.98 0)
 			(effects
 				(font
@@ -15816,7 +16302,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 217.17 83.82 90)
+		(at 219.71 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15825,7 +16311,7 @@
 		(fields_autoplaced yes)
 		(uuid "abf7e767-109e-4289-bc0d-780fe339a588")
 		(property "Reference" "C8"
-			(at 217.1763 77.47 90)
+			(at 219.7163 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15833,7 +16319,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 217.1763 80.01 90)
+			(at 219.7163 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15841,7 +16327,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 217.17 83.82 0)
+			(at 219.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15850,7 +16336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 83.82 0)
+			(at 219.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15859,7 +16345,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 83.82 0)
+			(at 219.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15884,7 +16370,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 163.83 83.82 90)
+		(at 166.37 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15893,7 +16379,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac63b9ab-affc-483b-8bdd-03a1b5da0560")
 		(property "Reference" "C6"
-			(at 163.8363 77.47 90)
+			(at 166.3763 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15901,7 +16387,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 163.8363 80.01 90)
+			(at 166.3763 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15909,7 +16395,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 163.83 83.82 0)
+			(at 166.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15918,7 +16404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 83.82 0)
+			(at 166.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15927,7 +16413,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 83.82 0)
+			(at 166.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15988,7 +16474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 83.82 138.43 0)
 			(effects
 				(font
@@ -15998,7 +16484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 78.74 134.62 0)
 			(effects
 				(font
@@ -16070,7 +16556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 267.97 93.98 0)
 			(effects
 				(font
@@ -16205,7 +16691,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 57.15 83.82 90)
+		(at 59.69 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16214,7 +16700,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae0a18e9-5001-4a66-bd71-ef8eefc012bc")
 		(property "Reference" "C2"
-			(at 57.1563 77.47 90)
+			(at 59.6963 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16222,7 +16708,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 57.1563 80.01 90)
+			(at 59.6963 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16230,7 +16716,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 57.15 83.82 0)
+			(at 59.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16239,7 +16725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 83.82 0)
+			(at 59.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16248,7 +16734,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 57.15 83.82 0)
+			(at 59.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16309,7 +16795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 30.48 123.19 0)
 			(effects
 				(font
@@ -16319,7 +16805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 25.4 119.38 0)
 			(effects
 				(font
@@ -16391,7 +16877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 48.26 34.29 0)
 			(effects
 				(font
@@ -16630,7 +17116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 137.16 107.95 0)
 			(effects
 				(font
@@ -16640,7 +17126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 132.08 104.14 0)
 			(effects
 				(font
@@ -16705,7 +17191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 190.5 92.71 0)
 			(effects
 				(font
@@ -16715,7 +17201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -16780,7 +17266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 243.84 92.71 0)
 			(effects
 				(font
@@ -16790,7 +17276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -16923,7 +17409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 190.5 123.19 0)
 			(effects
 				(font
@@ -16933,7 +17419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 185.42 119.38 0)
 			(effects
 				(font
@@ -17006,7 +17492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 69.85 0)
 			(effects
 				(font
@@ -17065,7 +17551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 217.17 107.95 0)
 			(effects
 				(font
@@ -17075,7 +17561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 212.09 104.14 0)
 			(effects
 				(font
@@ -17140,7 +17626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 110.49 92.71 0)
 			(effects
 				(font
@@ -17150,7 +17636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 105.41 88.9 0)
 			(effects
 				(font
@@ -17223,7 +17709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 69.85 0)
 			(effects
 				(font
@@ -17246,7 +17732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 114.3 90)
+		(at 113.03 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17255,7 +17741,7 @@
 		(fields_autoplaced yes)
 		(uuid "badb21fa-12af-43f7-ba93-9277702e099a")
 		(property "Reference" "C24"
-			(at 110.4963 107.95 90)
+			(at 113.0363 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17263,7 +17749,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 110.4963 110.49 90)
+			(at 113.0363 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17271,7 +17757,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 110.49 114.3 0)
+			(at 113.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17280,7 +17766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 114.3 0)
+			(at 113.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17289,7 +17775,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 114.3 0)
+			(at 113.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17357,7 +17843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 93.98 0)
 			(effects
 				(font
@@ -17380,7 +17866,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 243.84 83.82 90)
+		(at 246.38 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17389,7 +17875,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf10d097-5180-487d-9bd3-6d8a3e2b6291")
 		(property "Reference" "C9"
-			(at 243.8463 77.47 90)
+			(at 246.3863 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17397,7 +17883,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 243.8463 80.01 90)
+			(at 246.3863 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17405,7 +17891,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 243.84 83.82 0)
+			(at 246.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17414,7 +17900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 83.82 0)
+			(at 246.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17423,7 +17909,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 243.84 83.82 0)
+			(at 246.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17491,7 +17977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 154.94 0)
 			(effects
 				(font
@@ -17550,7 +18036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 270.51 92.71 0)
 			(effects
 				(font
@@ -17560,7 +18046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 265.43 88.9 0)
 			(effects
 				(font
@@ -17632,7 +18118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 134.62 34.29 0)
 			(effects
 				(font
@@ -17691,7 +18177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 163.83 123.19 0)
 			(effects
 				(font
@@ -17701,7 +18187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 158.75 119.38 0)
 			(effects
 				(font
@@ -17773,7 +18259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 139.7 0)
 			(effects
 				(font
@@ -17839,7 +18325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 154.94 0)
 			(effects
 				(font
@@ -17862,7 +18348,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 99.06 90)
+		(at 193.04 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17871,7 +18357,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8ef9dae-0ef7-468f-b120-34c0803c0141")
 		(property "Reference" "C17"
-			(at 190.5063 92.71 90)
+			(at 193.0463 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17879,7 +18365,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 190.5063 95.25 90)
+			(at 193.0463 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17887,7 +18373,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 190.5 99.06 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17896,7 +18382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 99.06 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17905,7 +18391,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 99.06 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18085,7 +18571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 267.97 109.22 0)
 			(effects
 				(font
@@ -18219,7 +18705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 256.54 34.29 0)
 			(effects
 				(font
@@ -18242,7 +18728,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 57.15 129.54 270)
+		(at 59.69 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18251,7 +18737,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca8e3fc7-a25a-4fa2-bd97-f5aba93e162f")
 		(property "Reference" "C32"
-			(at 57.1436 123.19 90)
+			(at 59.6836 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18259,7 +18745,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 57.1436 125.73 90)
+			(at 59.6836 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18267,7 +18753,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 57.15 129.54 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18276,7 +18762,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 129.54 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18285,7 +18771,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 57.15 129.54 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18346,7 +18832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 217.17 123.19 0)
 			(effects
 				(font
@@ -18356,7 +18842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 212.09 119.38 0)
 			(effects
 				(font
@@ -18428,7 +18914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 109.22 0)
 			(effects
 				(font
@@ -18494,7 +18980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -18553,7 +19039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 270.51 123.19 0)
 			(effects
 				(font
@@ -18563,7 +19049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 265.43 119.38 0)
 			(effects
 				(font
@@ -18635,7 +19121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 139.7 0)
 			(effects
 				(font
@@ -18694,7 +19180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 83.82 107.95 0)
 			(effects
 				(font
@@ -18704,7 +19190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 78.74 104.14 0)
 			(effects
 				(font
@@ -18733,7 +19219,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 57.15 144.78 270)
+		(at 59.69 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18742,7 +19228,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7d1e883-e9bf-4772-8dc0-2f36c886b7bc")
 		(property "Reference" "C42"
-			(at 57.1436 138.43 90)
+			(at 59.6836 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18750,7 +19236,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 57.1436 140.97 90)
+			(at 59.6836 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18758,7 +19244,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 57.15 144.78 0)
+			(at 59.69 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18767,7 +19253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 144.78 0)
+			(at 59.69 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18776,7 +19262,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 57.15 144.78 0)
+			(at 59.69 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18844,7 +19330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 109.22 0)
 			(effects
 				(font
@@ -18867,7 +19353,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 57.15 99.06 90)
+		(at 59.69 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18876,7 +19362,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8ea36ee-925d-46e8-bcdd-6444c4a4adb9")
 		(property "Reference" "C12"
-			(at 57.1563 92.71 90)
+			(at 59.6963 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18884,7 +19370,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 57.1563 95.25 90)
+			(at 59.6963 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18892,7 +19378,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 57.15 99.06 0)
+			(at 59.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18901,7 +19387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 99.06 0)
+			(at 59.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18910,7 +19396,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 57.15 99.06 0)
+			(at 59.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18978,7 +19464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 93.98 0)
 			(effects
 				(font
@@ -19001,7 +19487,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 163.83 99.06 90)
+		(at 166.37 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19010,7 +19496,7 @@
 		(fields_autoplaced yes)
 		(uuid "e041c33b-19d0-4dae-8af5-da13bcbf7838")
 		(property "Reference" "C16"
-			(at 163.8363 92.71 90)
+			(at 166.3763 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,7 +19504,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 163.8363 95.25 90)
+			(at 166.3763 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19026,7 +19512,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 163.83 99.06 0)
+			(at 166.37 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19035,7 +19521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 99.06 0)
+			(at 166.37 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19044,7 +19530,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 99.06 0)
+			(at 166.37 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19105,7 +19591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 30.48 107.95 0)
 			(effects
 				(font
@@ -19115,7 +19601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 25.4 104.14 0)
 			(effects
 				(font
@@ -19187,7 +19673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 54.61 154.94 0)
 			(effects
 				(font
@@ -19253,7 +19739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 154.94 0)
 			(effects
 				(font
@@ -19319,7 +19805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 109.22 0)
 			(effects
 				(font
@@ -19342,7 +19828,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 83.82 83.82 90)
+		(at 86.36 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19351,7 +19837,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4d5b551-734d-4240-99d2-8b79b7a37032")
 		(property "Reference" "C3"
-			(at 83.8263 77.47 90)
+			(at 86.3663 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19359,7 +19845,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 83.8263 80.01 90)
+			(at 86.3663 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19367,7 +19853,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 83.82 83.82 0)
+			(at 86.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19376,7 +19862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 83.82 0)
+			(at 86.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19385,7 +19871,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 83.82 0)
+			(at 86.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19453,7 +19939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 93.98 0)
 			(effects
 				(font
@@ -19476,7 +19962,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 144.78 270)
+		(at 113.03 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19485,7 +19971,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea7eba25-4b03-47e5-88e7-af3cec8fe342")
 		(property "Reference" "C44"
-			(at 110.4836 138.43 90)
+			(at 113.0236 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19493,7 +19979,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 110.4836 140.97 90)
+			(at 113.0236 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19501,7 +19987,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 110.49 144.78 0)
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19510,7 +19996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 144.78 0)
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19519,7 +20005,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 144.78 0)
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19580,7 +20066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 217.17 92.71 0)
 			(effects
 				(font
@@ -19590,7 +20076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 212.09 88.9 0)
 			(effects
 				(font
@@ -19662,7 +20148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 54.61 139.7 0)
 			(effects
 				(font
@@ -19685,7 +20171,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 144.78 270)
+		(at 193.04 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19694,7 +20180,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee654965-34b5-48f5-b7c8-c3eab5aa0c71")
 		(property "Reference" "C47"
-			(at 190.4936 138.43 90)
+			(at 193.0336 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19702,7 +20188,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 190.4936 140.97 90)
+			(at 193.0336 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19710,7 +20196,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 190.5 144.78 0)
+			(at 193.04 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19719,7 +20205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 144.78 0)
+			(at 193.04 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19728,7 +20214,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 144.78 0)
+			(at 193.04 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19796,7 +20282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 177.8 34.29 0)
 			(effects
 				(font
@@ -19862,7 +20348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 124.46 0)
 			(effects
 				(font
@@ -19928,7 +20414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 93.98 0)
 			(effects
 				(font
@@ -19987,7 +20473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 57.15 138.43 0)
 			(effects
 				(font
@@ -19997,7 +20483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 52.07 134.62 0)
 			(effects
 				(font
@@ -20069,7 +20555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 170.18 34.29 0)
 			(effects
 				(font
@@ -20092,7 +20578,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 163.83 144.78 270)
+		(at 166.37 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20101,7 +20587,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3758249-a5ee-4f70-84f7-806047670cc0")
 		(property "Reference" "C46"
-			(at 163.8236 138.43 90)
+			(at 166.3636 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20109,7 +20595,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 163.8236 140.97 90)
+			(at 166.3636 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20117,7 +20603,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 163.83 144.78 0)
+			(at 166.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20126,7 +20612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 144.78 0)
+			(at 166.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20135,7 +20621,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 144.78 0)
+			(at 166.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20203,7 +20689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 91.44 34.29 0)
 			(effects
 				(font
@@ -20262,7 +20748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
 			(at 137.16 92.71 0)
 			(effects
 				(font
@@ -20272,7 +20758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "14A Id, 50V Vds, N-Channel Logic Level Power MOSFET"
+		(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 			(at 132.08 88.9 0)
 			(effects
 				(font
@@ -20344,7 +20830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 139.7 0)
 			(effects
 				(font
@@ -20410,7 +20896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 54.61 124.46 0)
 			(effects
 				(font
@@ -20433,7 +20919,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 83.82 129.54 270)
+		(at 86.36 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20442,7 +20928,7 @@
 		(fields_autoplaced yes)
 		(uuid "f92998f7-c197-4e9d-8f95-37300649e701")
 		(property "Reference" "C33"
-			(at 83.8136 123.19 90)
+			(at 86.3536 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20450,7 +20936,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 83.8136 125.73 90)
+			(at 86.3536 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20458,7 +20944,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 83.82 129.54 0)
+			(at 86.36 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20467,7 +20953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 129.54 0)
+			(at 86.36 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20476,7 +20962,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 129.54 0)
+			(at 86.36 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20544,7 +21030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 93.98 0)
 			(effects
 				(font
@@ -20567,7 +21053,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 129.54 270)
+		(at 139.7 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20576,7 +21062,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb5252a7-3f29-4260-8b53-18eb7261706b")
 		(property "Reference" "C35"
-			(at 137.1536 123.19 90)
+			(at 139.6936 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20584,7 +21070,7 @@
 			)
 		)
 		(property "Value" "0.1μF"
-			(at 137.1536 125.73 90)
+			(at 139.6936 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20592,7 +21078,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
-			(at 137.16 129.54 0)
+			(at 139.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20601,7 +21087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 129.54 0)
+			(at 139.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,7 +21096,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 129.54 0)
+			(at 139.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20678,7 +21164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 139.7 0)
 			(effects
 				(font

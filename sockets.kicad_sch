@@ -9080,7 +9080,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x42_Row_Letter_First"
+			(property "Value" "Yamaichi IC120-0844-203"
 				(at 1.27 54.61 0)
 				(effects
 					(font
@@ -10692,7 +10692,7 @@
 				(pin passive line
 					(at -5.08 -35.56 0)
 					(length 3.81)
-					(name "Pin_a35"
+					(name "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -25136,7 +25136,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x42_Row_Letter_First"
+		(property "Value" "Yamaichi IC120-0844-203"
 			(at 219.71 34.29 0)
 			(effects
 				(font
@@ -25171,130 +25171,130 @@
 				(hide yes)
 			)
 		)
-		(pin "37"
+		(pin "8"
 			(uuid "1735e2e2-f479-42db-b2af-6292a609fd40")
 		)
-		(pin "8"
+		(pin "26"
 			(uuid "c3a60663-2a39-4128-b56e-3c6f71938245")
 		)
-		(pin "12"
+		(pin "6"
 			(uuid "9549a9af-3102-4ab1-930a-b0a04900e95f")
 		)
-		(pin "80"
+		(pin "30"
 			(uuid "05e5c79e-a3fe-474a-8e1d-9ab0d785777c")
 		)
-		(pin "14"
+		(pin "34"
 			(uuid "b5e9f12c-513a-432c-ad29-4baaec1aefd5")
 		)
-		(pin "31"
+		(pin "14"
 			(uuid "5b70e55c-8a93-4420-a8da-eca5bde913d5")
 		)
-		(pin "78"
+		(pin "29"
 			(uuid "90167bc8-8933-48b8-b7af-25d26ea17897")
 		)
-		(pin "84"
+		(pin "15"
 			(uuid "90de49d4-bd25-4056-a4ff-3c95c976826c")
 		)
-		(pin "15"
+		(pin "27"
 			(uuid "c88ebe24-03e2-418a-86c2-5e9638473cbc")
 		)
-		(pin "49"
+		(pin "12"
 			(uuid "14d147ba-c160-4f4e-ad2c-f40bde915645")
 		)
 		(pin "28"
 			(uuid "7bede5c3-d9bf-4021-9442-7df63d7cb123")
 		)
-		(pin "17"
+		(pin "23"
 			(uuid "28bccc0b-b74f-49ea-adfe-574751d3cd04")
 		)
-		(pin "44"
+		(pin "11"
 			(uuid "6e4ebc55-8630-4c92-a9ba-b46fe4af5b6a")
 		)
-		(pin "54"
+		(pin "10"
 			(uuid "8666ac2c-8430-4bce-93d3-f95d19fc14e2")
 		)
-		(pin "9"
+		(pin "31"
 			(uuid "c0f87ea9-3bb6-417d-b6bd-2bcb55c7789d")
 		)
-		(pin "19"
+		(pin "32"
 			(uuid "970f1044-37da-43ec-bd4b-446fe63ca0e0")
 		)
-		(pin "32"
+		(pin "24"
 			(uuid "07fa2153-6aa9-453c-a19d-9859c3dc57c3")
 		)
-		(pin "25"
+		(pin "7"
 			(uuid "f8859afd-8139-44c4-8f08-a38b3baa4e90")
 		)
-		(pin "48"
+		(pin "33"
 			(uuid "979ebba8-a264-4b53-97c2-0bc62dcb455d")
 		)
-		(pin "47"
+		(pin "25"
 			(uuid "a44a8fec-657b-4c25-abf6-f9f5d64c2cdc")
 		)
-		(pin "45"
+		(pin "9"
 			(uuid "b0162d8c-8b35-4a67-9ea0-d6e60261f01c")
 		)
-		(pin "27"
+		(pin "13"
 			(uuid "1c6e931e-443d-48ab-9755-d92ae1ec0919")
 		)
-		(pin "24"
+		(pin "38"
 			(uuid "c67c29bc-7699-4dce-a50e-3816686fbe8d")
 		)
-		(pin "72"
+		(pin "39"
 			(uuid "dce58362-5066-47d7-80d8-9dbe163a86f9")
 		)
-		(pin "10"
+		(pin "78"
 			(uuid "a71c3ae8-e98c-44d5-9a0a-e0949d59de96")
 		)
-		(pin "55"
+		(pin "77"
 			(uuid "1adadcb5-6856-467e-9d09-ac8af9882d0b")
 		)
-		(pin "57"
+		(pin "76"
 			(uuid "3fa33362-2f85-4559-bd46-373114b5bb94")
 		)
-		(pin "56"
+		(pin "81"
 			(uuid "01dd4e7d-b14b-4bd3-8db8-d4abe4765c76")
 		)
-		(pin "20"
+		(pin "80"
 			(uuid "4bfaf89c-f8c8-4c68-ae52-3dcc253b23fd")
 		)
-		(pin "21"
+		(pin "79"
 			(uuid "4a7dc0f6-b065-4b2b-aed6-d44c9407f471")
 		)
-		(pin "46"
+		(pin "75"
 			(uuid "4fb9be70-f04a-4ec7-8a54-612f5a0dcddb")
 		)
-		(pin "26"
+		(pin "1"
 			(uuid "ca910ace-2f21-49f8-8955-2aa22d14eeb4")
 		)
-		(pin "39"
+		(pin "2"
 			(uuid "fcf0767a-122b-4005-8e00-c2b2a16693f6")
 		)
-		(pin "40"
+		(pin "84"
 			(uuid "427c6bb9-d1e3-47f9-a8de-9ada7c9743ea")
 		)
-		(pin "67"
+		(pin "83"
 			(uuid "719b95d2-3434-4073-a38e-6a6374a385e6")
 		)
-		(pin "66"
+		(pin "82"
 			(uuid "3e7bafff-57b1-4d36-87e0-168b77be5b9f")
 		)
-		(pin "59"
+		(pin "74"
 			(uuid "c1a154c9-f275-4b8b-8f68-22768e8e3d03")
 		)
-		(pin "36"
+		(pin "73"
 			(uuid "6469760c-ae99-4604-883b-9ee10498931b")
 		)
-		(pin "41"
+		(pin "72"
 			(uuid "507acc4d-39c5-4a06-813e-d6fc9e1f9001")
 		)
-		(pin "42"
+		(pin "71"
 			(uuid "8bfe8062-c698-46e4-bb41-ea88475b358d")
 		)
-		(pin "75"
+		(pin "70"
 			(uuid "d0008f80-ee8e-4774-961e-c5c6d5be1de6")
 		)
-		(pin "74"
+		(pin "69"
 			(uuid "75bad626-582f-4fa9-84a5-113157e7d41d")
 		)
 		(pin "65"
@@ -25303,124 +25303,124 @@
 		(pin "64"
 			(uuid "6f6536d3-9e55-4a94-9783-c15e7b1d57e5")
 		)
-		(pin "73"
+		(pin "63"
 			(uuid "4c242f5b-d73f-456a-ae85-df73203468a8")
 		)
-		(pin "18"
+		(pin "35"
 			(uuid "e87fb638-772d-4de6-b830-b6195c6a0ff5")
 		)
-		(pin "58"
+		(pin "36"
 			(uuid "fe7cd4b7-3aaa-48f5-9a4e-e379fbee5af0")
 		)
-		(pin "38"
+		(pin "16"
 			(uuid "4571b82d-ea90-488e-9b5e-98fd2867dacf")
 		)
-		(pin "81"
+		(pin "62"
 			(uuid "a011050e-52eb-4620-be61-3ed4714b831d")
 		)
-		(pin "35"
+		(pin "61"
 			(uuid "1d1dfe13-67b6-4a9b-b23c-67fe529eb948")
 		)
-		(pin "29"
+		(pin "60"
 			(uuid "89429700-a0ba-4f6a-a78a-7963ea36d667")
 		)
-		(pin "30"
+		(pin "68"
 			(uuid "d101cc06-4ae3-4030-8b74-3318bc92f39d")
 		)
-		(pin "61"
+		(pin "67"
 			(uuid "4f7f7d93-e0e5-4f35-a326-bfc824eee3c9")
 		)
-		(pin "60"
+		(pin "66"
 			(uuid "c229e1f5-814c-47b4-8221-3300b85f9369")
 		)
-		(pin "1"
+		(pin "54"
 			(uuid "aaf155b0-72c3-4bfb-9dc6-92baf98d1ed7")
 		)
-		(pin "4"
+		(pin "53"
 			(uuid "c4c47bff-7698-461e-b9d8-bc3c85b4d7be")
 		)
-		(pin "3"
+		(pin "52"
 			(uuid "1177da2a-29c4-4e14-8b9f-388bf9bbf722")
 		)
-		(pin "2"
+		(pin "47"
 			(uuid "4d151536-dfc7-4fc3-aa7d-56383c8ab0ea")
 		)
-		(pin "83"
+		(pin "46"
 			(uuid "0652238a-9e13-4fd5-8ccc-893b20d05e52")
 		)
-		(pin "82"
+		(pin "45"
 			(uuid "f5054d5c-58ad-4760-94c2-1051c3857269")
 		)
-		(pin "13"
+		(pin "57"
 			(uuid "c4b51ef3-4021-437d-b7dc-d53d98ff98a1")
 		)
-		(pin "52"
+		(pin "56"
 			(uuid "bd143c98-28aa-4702-9af7-ecc387e37636")
 		)
-		(pin "51"
+		(pin "55"
 			(uuid "e00541b3-6719-432a-adf6-0beb10571c5d")
 		)
-		(pin "50"
+		(pin "17"
 			(uuid "edbc0d49-940e-4f28-90f1-8734041dceac")
 		)
-		(pin "33"
+		(pin "18"
 			(uuid "7250a020-82cc-4722-b86e-c911961d197a")
 		)
-		(pin "34"
+		(pin "19"
 			(uuid "8fdfb866-cd35-453e-b384-d65feb1df3f8")
 		)
-		(pin "22"
+		(pin "44"
 			(uuid "245cb19a-51eb-46cb-ac31-1cdc05c0749b")
 		)
-		(pin "23"
+		(pin "43"
 			(uuid "8ef00851-c904-4ac0-9017-e885b5998af4")
 		)
-		(pin "7"
+		(pin "37"
 			(uuid "0d32e93e-e9b6-4d19-a73f-714c7cd16ca3")
 		)
-		(pin "43"
+		(pin "20"
 			(uuid "7286ce73-8457-4732-8d5d-6d6278fe0479")
 		)
-		(pin "69"
+		(pin "21"
 			(uuid "39b31467-20b0-4cba-a62d-86b8e57948a2")
 		)
-		(pin "68"
+		(pin "22"
 			(uuid "9f11c8ae-813f-44bb-b4cf-d847a5954f5e")
 		)
-		(pin "53"
+		(pin "51"
 			(uuid "d515d099-bc2f-4b41-a9c2-d6534c25a29d")
 		)
-		(pin "11"
+		(pin "50"
 			(uuid "645422dd-fe5b-44c0-a65f-7567ed5c7ad6")
 		)
-		(pin "71"
+		(pin "49"
 			(uuid "20a19adb-e891-47db-a702-10189a022063")
 		)
-		(pin "70"
+		(pin "40"
 			(uuid "a60a8e76-1c66-4ce0-9bc7-b0fcd99e56bc")
 		)
-		(pin "63"
+		(pin "41"
 			(uuid "eb734573-8590-4244-aa54-948c5826c306")
 		)
-		(pin "62"
+		(pin "42"
 			(uuid "fef374e9-5caf-4036-a604-82dc5a0ad45e")
 		)
-		(pin "16"
+		(pin "3"
 			(uuid "1752e493-2d7a-4eec-bd40-4f52471bcc32")
 		)
-		(pin "79"
+		(pin "4"
 			(uuid "ba307c6b-7864-4606-8c53-f0cfe2ad3f76")
 		)
-		(pin "77"
+		(pin "5"
 			(uuid "b61e4116-8356-4e16-b76b-0fb05cd17e26")
 		)
-		(pin "76"
+		(pin "59"
 			(uuid "0c2ed320-da4a-4160-ba02-6f5e9b1862a7")
 		)
-		(pin "5"
+		(pin "58"
 			(uuid "32fefbf0-a899-487e-a25a-44c0e0c64cfb")
 		)
-		(pin "6"
+		(pin "48"
 			(uuid "d1cb9354-7799-4a51-8ed2-7175482b4627")
 		)
 		(instances
@@ -25450,7 +25450,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x24_Counter_Clockwise"
+		(property "Value" "Aries 48-6554-10"
 			(at 87.63 85.09 0)
 			(effects
 				(font
@@ -25656,7 +25656,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x34_Counter_Clockwise"
+		(property "Value" "Yamaichi IC120-0684-204"
 			(at 186.69 34.29 0)
 			(effects
 				(font
@@ -25912,7 +25912,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "49915b12-efbd-4a56-b502-66f5577d8445")
 		(property "Reference" "PLCC32"
 			(at 87.63 31.75 0)
@@ -25922,7 +25921,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x16_Counter_Clockwise"
+		(property "Value" "Yamaichi IC120-0324-209"
 			(at 87.63 34.29 0)
 			(effects
 				(font
@@ -26080,7 +26079,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x14_Counter_Clockwise"
+		(property "Value" "Yamaichi IC120-0284-408"
 			(at 120.65 110.49 0)
 			(effects
 				(font
@@ -26226,7 +26225,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x26_Counter_Clockwise"
+		(property "Value" "Yamaichi IC120-0524-207"
 			(at 153.67 34.29 0)
 			(effects
 				(font
@@ -26444,7 +26443,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x10_Counter_Clockwise"
+		(property "Value" "Yamaichi IC120-0204-205"
 			(at 153.67 120.65 0)
 			(effects
 				(font
@@ -26566,7 +26565,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x22_Counter_Clockwise"
+		(property "Value" "Yamaichi IC120-0444-206"
 			(at 120.65 34.29 0)
 			(effects
 				(font

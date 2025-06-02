@@ -656,6 +656,14 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -916,8 +924,12 @@
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1017,8 +1029,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+12V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1038,8 +1049,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1139,8 +1154,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1160,14 +1174,18 @@
 		)
 		(symbol "power:-5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 2.54 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1176,7 +1194,7 @@
 				)
 			)
 			(property "Value" "-5V"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1223,8 +1241,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "-5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1359,8 +1376,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1436,8 +1457,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11161,7 +11181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 45.72 0)
 			(effects
 				(font
@@ -11228,7 +11248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 99.06 0)
 			(effects
 				(font
@@ -11295,7 +11315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 129.54 138.43 0)
 			(effects
 				(font
@@ -11365,7 +11385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 99.06 0)
 			(effects
 				(font
@@ -11432,13 +11452,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 96.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11502,7 +11530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 99.06 0)
 			(effects
 				(font
@@ -11693,7 +11721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 26.67 43.18 0)
 			(effects
 				(font
@@ -11760,7 +11788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
 			(at 74.93 35.56 0)
 			(effects
 				(font
@@ -11827,7 +11855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 20.32 0)
 			(effects
 				(font
@@ -11894,7 +11922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 20.32 0)
 			(effects
 				(font
@@ -11961,7 +11989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 106.68 20.32 0)
 			(effects
 				(font
@@ -12163,7 +12191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 96.52 134.62 0)
 			(effects
 				(font
@@ -12299,7 +12327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 connector, 3 row (ABC), 03x32"
 			(at 57.15 60.96 0)
 			(effects
 				(font
@@ -12651,7 +12679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 20.32 0)
 			(effects
 				(font
@@ -12718,7 +12746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 96.52 137.16 0)
 			(effects
 				(font
@@ -12786,7 +12814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 240.03 110.49 0)
 			(effects
 				(font
@@ -12853,7 +12881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 106.68 99.06 0)
 			(effects
 				(font
@@ -12919,7 +12947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 132.08 176.53 0)
 			(effects
 				(font
@@ -12986,7 +13014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 connector, 3 row (ABC), 03x32"
 			(at 111.76 60.96 0)
 			(effects
 				(font
@@ -13337,7 +13365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 152.4 0)
 			(effects
 				(font
@@ -13404,7 +13432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -13470,7 +13498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 247.65 149.86 0)
 			(effects
 				(font
@@ -13537,13 +13565,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, filled shape"
 			(at 107.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13606,7 +13642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 247.65 110.49 0)
 			(effects
 				(font
@@ -13674,7 +13710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 connector, 3 row (ABC), 03x32"
 			(at 128.27 60.96 0)
 			(effects
 				(font
@@ -14026,7 +14062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 99.06 0)
 			(effects
 				(font
@@ -14093,7 +14129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 connector, 3 row (ABC), 03x32"
 			(at 31.75 60.96 0)
 			(effects
 				(font
@@ -14513,7 +14549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 connector, 3 row (ABC), 03x32"
 			(at 149.86 60.96 0)
 			(effects
 				(font
@@ -14932,7 +14968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -14999,7 +15035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 123.19 20.32 0)
 			(effects
 				(font
@@ -15065,7 +15101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 149.86 179.07 0)
 			(effects
 				(font
@@ -15131,7 +15167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 149.86 138.43 0)
 			(effects
 				(font
@@ -15198,7 +15234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 26.67 27.94 0)
 			(effects
 				(font
@@ -15265,7 +15301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 20.32 0)
 			(effects
 				(font
@@ -15332,7 +15368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 26.67 25.4 0)
 			(effects
 				(font
@@ -15398,7 +15434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 107.95 134.62 0)
 			(effects
 				(font
@@ -15465,7 +15501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
 			(at 74.93 38.1 0)
 			(effects
 				(font
@@ -15532,7 +15568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 45.72 0)
 			(effects
 				(font
@@ -15598,7 +15634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 129.54 135.89 0)
 			(effects
 				(font
@@ -15666,7 +15702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 connector, 3 row (ABC), 03x32"
 			(at 80.01 60.96 0)
 			(effects
 				(font
@@ -16018,7 +16054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 107.95 137.16 0)
 			(effects
 				(font
