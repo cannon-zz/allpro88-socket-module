@@ -1054,6 +1054,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DESIGNATORS MATCH\nZIF PIN NUMBERS"
+		(exclude_from_sim no)
+		(at 17.78 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df11f922-48cf-4134-8ec0-3a97bdf9409c")
+	)
 	(junction
 		(at 153.67 74.93)
 		(diameter 0)
@@ -8824,7 +8835,7 @@
 		)
 		(uuid "fabc1780-e21e-4226-831d-54f93732975f")
 	)
-	(hierarchical_label "~{CS[0..9]}"
+	(hierarchical_label "~{CS[4..9]}"
 		(shape input)
 		(at 22.86 21.59 180)
 		(effects

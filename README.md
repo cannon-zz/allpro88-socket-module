@@ -37,3 +37,7 @@ The scans available on the internet of the original schematic, both for the sock
  * D0 -- D7:  system data bus.
  * OUT0 -- OUT87:  the 88 pin driver inputs/outputs.
  * SPARE1:  unused signal line that connects to the socket module, all pin driver boards, and both analogue 1 and analogue 2.  There are two unused voltage DACs on analogue 2, and I think a sensible thing to do would be to jumper one of them to this in line, to provide an additional programmable voltage to the system.  For example, the fixed 5 V linear regulators that generate the "TTL" output voltage on the pin driver boards could be replaced with adjustable regulators programmed by this voltage, making it easier to support non- 5 V logic.
+
+## PAL
+
+The PAL device is a look-up table for chip select line decoding.  To (I assume) simplify trace routing, pin driver channels are connected to ZIF socket pins close to their location on the DIN connector, in groups of 8 with 4 on one side of the socket and 4 on the other, while decoupling capacitor transistor drivers are connected to transistors sequentially along each side of the socket.  Additionally, for (again I assume) historical reasons only the first 40 channels have sequential addresses, the final 8 are offset at slightly higher addresses.  Altogther, these conditions create a somewhat complex relationship between the numerical address on the address bus and which transistor on which FET chip should be turned on or off, which motivates the use of a programmable logic device.
